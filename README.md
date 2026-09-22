@@ -190,10 +190,6 @@ Reducing manual processes through APIs, scheduled synchronization, validation ru
 
 <br/>
 
-<sub>
-A lightweight local animation for a stable GitHub profile presentation. Live contribution statistics remain available in the streak section above.
-</sub>
-
 </div>
 
 ---
