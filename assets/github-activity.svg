@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180" role="img" aria-label="GitHub activity animation">
+  <rect width="900" height="180" rx="12" fill="#ffffff"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="28" y="38" font-size="14" font-weight="700" fill="#111827" letter-spacing="1.2">GITHUB ACTIVITY</text>
+    <text x="28" y="61" font-size="12" fill="#6B7280">Continuous development, integration and improvement</text>
+  </g>
+
+  <g transform="translate(28 88)">
+    <line x1="0" y1="45" x2="844" y2="45" stroke="#E5E7EB" stroke-width="1"/>
+
+    <g fill="#1687D9">
+      <rect x="0"   y="26" width="18" height="19" rx="3">
+        <animate attributeName="height" values="19;34;19" dur="2.8s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="26;11;26" dur="2.8s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="30"  y="18" width="18" height="27" rx="3" opacity=".75">
+        <animate attributeName="height" values="27;12;27" dur="2.4s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="18;33;18" dur="2.4s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="60"  y="8"  width="18" height="37" rx="3" opacity=".9">
+        <animate attributeName="height" values="37;20;37" dur="3s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="8;25;8" dur="3s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="90"  y="30" width="18" height="15" rx="3" opacity=".55">
+        <animate attributeName="height" values="15;31;15" dur="2.2s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="30;14;30" dur="2.2s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="120" y="14" width="18" height="31" rx="3" opacity=".82">
+        <animate attributeName="height" values="31;18;31" dur="2.7s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="14;27;14" dur="2.7s" repeatCount="indefinite"/>
+      </rect>
+
+      <rect x="170" y="24" width="18" height="21" rx="3">
+        <animate attributeName="height" values="21;38;21" dur="2.6s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="24;7;24" dur="2.6s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="200" y="12" width="18" height="33" rx="3" opacity=".72">
+        <animate attributeName="height" values="33;17;33" dur="2.9s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="12;28;12" dur="2.9s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="230" y="28" width="18" height="17" rx="3" opacity=".6">
+        <animate attributeName="height" values="17;29;17" dur="2.3s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="28;16;28" dur="2.3s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="260" y="5" width="18" height="40" rx="3" opacity=".95">
+        <animate attributeName="height" values="40;24;40" dur="3.2s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="5;21;5" dur="3.2s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="290" y="20" width="18" height="25" rx="3" opacity=".7">
+        <animate attributeName="height" values="25;36;25" dur="2.5s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="20;9;20" dur="2.5s" repeatCount="indefinite"/>
+      </rect>
+
+      <rect x="340" y="15" width="18" height="30" rx="3">
+        <animate attributeName="height" values="30;16;30" dur="2.8s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="15;29;15" dur="2.8s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="370" y="27" width="18" height="18" rx="3" opacity=".55">
+        <animate attributeName="height" values="18;34;18" dur="2.4s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="27;11;27" dur="2.4s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="400" y="9" width="18" height="36" rx="3" opacity=".88">
+        <animate attributeName="height" values="36;22;36" dur="3.1s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="9;23;9" dur="3.1s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="430" y="22" width="18" height="23" rx="3" opacity=".68">
+        <animate attributeName="height" values="23;39;23" dur="2.7s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="22;6;22" dur="2.7s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="460" y="13" width="18" height="32" rx="3" opacity=".78">
+        <animate attributeName="height" values="32;19;32" dur="2.6s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="13;26;13" dur="2.6s" repeatCount="indefinite"/>
+      </rect>
+
+      <rect x="510" y="29" width="18" height="16" rx="3" opacity=".58">
+        <animate attributeName="height" values="16;28;16" dur="2.2s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="29;17;29" dur="2.2s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="540" y="7" width="18" height="38" rx="3">
+        <animate attributeName="height" values="38;23;38" dur="3s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="7;22;7" dur="3s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="570" y="19" width="18" height="26" rx="3" opacity=".74">
+        <animate attributeName="height" values="26;37;26" dur="2.5s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="19;8;19" dur="2.5s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="600" y="11" width="18" height="34" rx="3" opacity=".86">
+        <animate attributeName="height" values="34;18;34" dur="2.9s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="11;27;11" dur="2.9s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="630" y="25" width="18" height="20" rx="3" opacity=".64">
+        <animate attributeName="height" values="20;33;20" dur="2.4s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="25;12;25" dur="2.4s" repeatCount="indefinite"/>
+      </rect>
+
+      <rect x="680" y="16" width="18" height="29" rx="3">
+        <animate attributeName="height" values="29;41;29" dur="2.7s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="16;4;16" dur="2.7s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="710" y="31" width="18" height="14" rx="3" opacity=".52">
+        <animate attributeName="height" values="14;26;14" dur="2.3s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="31;19;31" dur="2.3s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="740" y="10" width="18" height="35" rx="3" opacity=".9">
+        <animate attributeName="height" values="35;20;35" dur="3.1s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="10;25;10" dur="3.1s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="770" y="21" width="18" height="24" rx="3" opacity=".72">
+        <animate attributeName="height" values="24;36;24" dur="2.5s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="21;9;21" dur="2.5s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="800" y="6" width="18" height="39" rx="3">
+        <animate attributeName="height" values="39;25;39" dur="2.8s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="6;20;6" dur="2.8s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <circle cx="835" cy="22" r="6" fill="#1687D9">
+      <animate attributeName="opacity" values="1;.25;1" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
