@@ -1,6 +1,6 @@
 <div align="center">
 
-<p align="center"><strong>LUKMAN B. BESTARI</strong></p>
+<p align="center"><strong>Lukman Bijak Bestari</strong></p>
 
 <p><strong>BUSINESS SYSTEMS • DATA • AUTOMATION</strong></p>
 
@@ -23,7 +23,7 @@
 
 <p><strong><img src="https://img.icons8.com/ios-filled/24/1687D9/user-male-circle.png" width="20"/> ABOUT ME</strong></p>
 
-Hi, I'm **Lukman B. Bestari** — a trainer, developer, and business systems builder focused on transforming operational workflows into practical digital solutions.
+Hi, I'm **Lukman Bijak Bestari** — a trainer, developer, and business systems builder focused on transforming operational workflows into practical digital solutions.
 
 My work sits at the intersection of **business processes, accounting systems, data, and software development**.
 
@@ -146,20 +146,51 @@ Helping teams understand and adopt systems effectively.
 
 <p><strong><img src="https://img.icons8.com/ios-filled/24/1687D9/rocket.png" width="20"/> WHAT I BUILD</strong></p>
 
-<p><strong><img src="https://img.icons8.com/ios-filled/20/1687D9/office.png" width="18"/> Business Applications</strong></p>
-Custom web applications designed around actual operational workflows rather than generic software assumptions.
+<p>Practical digital solutions built around <strong>your processes, your data, and your team.</strong></p>
 
-<p><strong><img src="https://img.icons8.com/ios-filled/20/1687D9/synchronize.png" width="18"/> Accurate Online Integrations</strong></p>
-Automation and data synchronization between business applications, Excel files, external platforms, and **Accurate Online**.
-
-<p><strong><img src="./assets/chart.svg" width="18" alt="" /> Reporting & Dashboard Systems</strong></p>
-Operational and financial reports that make data easier to monitor, analyze, and act on.
-
-<p><strong><img src="https://img.icons8.com/ios-filled/20/1687D9/data-configuration.png" width="18"/> Data Processing Tools</strong></p>
-Tools for converting, validating, reconciling, importing, and exporting large volumes of business data.
-
-<p><strong><img src="https://img.icons8.com/ios-filled/20/1687D9/workflow.png" width="18"/> Workflow Automation</strong></p>
-Reducing manual processes through APIs, scheduled synchronization, validation rules, and purpose-built utilities.
+<table>
+<tr>
+<td width="50%" valign="top">
+<img src="https://img.icons8.com/ios-filled/32/1687D9/office.png" width="28" alt="" />
+<h3>Business Applications</h3>
+<p>Custom web applications that bring everyday operations into a structured, manageable workspace.</p>
+<p><code>Sales &amp; purchasing</code> <code>Inventory</code> <code>Approvals</code></p>
+<p><strong>Purpose:</strong> Give teams a clearer way to manage their daily work.</p>
+</td>
+<td width="50%" valign="top">
+<img src="https://img.icons8.com/ios-filled/32/1687D9/synchronize.png" width="28" alt="" />
+<h3>Accurate Online Integrations</h3>
+<p>Connect Accurate Online with business applications, Excel files, and external platforms through APIs.</p>
+<p><code>REST API</code> <code>Data synchronization</code> <code>Excel integration</code></p>
+<p><strong>Purpose:</strong> Keep business data connected and reduce repetitive entry.</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<img src="./assets/chart.svg" width="28" alt="" />
+<h3>Reporting &amp; Dashboards</h3>
+<p>Turn operational and financial data into focused reports and dashboards that support everyday decisions.</p>
+<p><code>Financial reports</code> <code>Operational monitoring</code> <code>Analytics</code></p>
+<p><strong>Purpose:</strong> Make performance easier to understand and act on.</p>
+</td>
+<td width="50%" valign="top">
+<img src="https://img.icons8.com/ios-filled/32/1687D9/data-configuration.png" width="28" alt="" />
+<h3>Data Processing Tools</h3>
+<p>Purpose-built utilities for validating, reconciling, converting, and moving business data between systems.</p>
+<p><code>Validation</code> <code>Reconciliation</code> <code>Import / export</code></p>
+<p><strong>Purpose:</strong> Prepare consistent, reliable data for business workflows.</p>
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+<img src="https://img.icons8.com/ios-filled/32/1687D9/workflow.png" width="28" alt="" />
+<h3>Workflow Automation</h3>
+<p>Bring applications, integrations, and data tools together with scheduled tasks and validation rules that reduce manual handoffs.</p>
+<p><code>Scheduled synchronization</code> <code>Automated reporting</code> <code>Process automation</code></p>
+<p><strong>Purpose:</strong> Help teams spend less time on repetitive work and more time on decisions.</p>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -218,6 +249,12 @@ I enjoy working on solutions where **business knowledge, accounting, data, and t
 
 <a href="https://easyfinancepro.id/">
   <img src="https://img.shields.io/badge/VISIT_EASYFINANCEPRO.ID-1687D9?style=for-the-badge&logo=googlechrome&logoColor=white" alt="EasyFinancePro" />
+</a>
+<a href="https://www.instagram.com/lukmanbi">
+  <img src="https://img.shields.io/badge/Instagram-%40lukmanbi-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram: @lukmanbi" />
+</a>
+<a href="https://wa.me/6281285525538">
+  <img src="https://img.shields.io/badge/WhatsApp-081285525538-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp: 081285525538" />
 </a>
 
 <br/><br/>
