@@ -8,7 +8,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Arial&weight=500&size=20&duration=3500&pause=1800&color=1687D9&center=true&vCenter=true&width=650&height=36&lines=Business+Systems+%26+API+Integration;Data+%26+Workflow+Automation" width="650" alt="Business systems, API integration, data, and workflow automation" />
 
-<p><a href="#what-i-build">Layanan</a> &nbsp; / &nbsp; <a href="#tech-stack">Teknologi</a> &nbsp; / &nbsp; <a href="#lets-connect">Kontak</a></p>
+<p><a href="#what-i-build">Layanan</a> &nbsp; / &nbsp; <a href="#tech-stack">Teknologi</a> &nbsp; / &nbsp; <a href="#github-highlights">GitHub</a> &nbsp; / &nbsp; <a href="#lets-connect">Kontak</a></p>
 
 </div>
 
@@ -84,6 +84,29 @@ Solusi yang disesuaikan dengan **alur kerja, data, dan kebutuhan tim Anda**.
 | Integrasi | Accurate Online API, REST API, JSON, CSV |
 | Infrastruktur & workflow | Linux, Nginx, Git, GitHub, Vercel |
 
+## GitHub Highlights
+
+Kontribusi, konsistensi, dan aktivitas pengembangan saya di GitHub.
+
+<div align="center">
+
+<p>
+  <a href="https://github.com/lukmanbijak93-blip?tab=followers">
+    <img src="https://img.shields.io/github/followers/lukmanbijak93-blip?label=Followers&amp;style=for-the-badge&amp;color=1687D9&amp;logo=github&amp;logoColor=white" alt="Jumlah pengikut GitHub Lukman Bijak Bestari" />
+  </a>
+  <a href="https://github.com/lukmanbijak93-blip?tab=repositories">
+    <img src="https://img.shields.io/github/stars/lukmanbijak93-blip?label=Total%20Stars&amp;style=for-the-badge&amp;color=1687D9&amp;logo=github&amp;logoColor=white" alt="Total bintang pada repositori GitHub Lukman Bijak Bestari" />
+  </a>
+</p>
+
+<a href="https://github.com/lukmanbijak93-blip">
+  <img src="https://streak-stats.demolab.com?user=lukmanbijak93-blip&amp;hide_border=true&amp;background=0D2035&amp;stroke=294762&amp;ring=48B7FF&amp;fire=48B7FF&amp;currStreakNum=F0F6FF&amp;sideNums=F0F6FF&amp;currStreakLabel=84CCFF&amp;sideLabels=BDCFE1&amp;dates=9AB3CB" width="700" alt="Statistik kontribusi GitHub Lukman Bijak Bestari: total kontribusi, streak saat ini, dan streak terpanjang" />
+</a>
+
+<p><a href="https://github.com/lukmanbijak93-blip?tab=repositories">Jelajahi repositori</a> &nbsp; / &nbsp; <a href="https://github.com/lukmanbijak93-blip?tab=overview">Lihat aktivitas kontribusi</a></p>
+
+</div>
+
 ## Let's Connect
 
 **Ingin mengintegrasikan Accurate Online atau menyederhanakan proses bisnis Anda?**
@@ -103,13 +126,3 @@ Ceritakan alur kerja yang sedang Anda jalankan dan bagian yang ingin diperbaiki.
 </p>
 
 [Diskusikan kebutuhan Anda lewat WhatsApp](https://wa.me/6281285525538) - [Instagram @lukmanbi](https://www.instagram.com/lukmanbi) - [Website EasyFinancePro](https://easyfinancepro.id/)
-
----
-
-<details>
-<summary><strong>GitHub Activity</strong></summary>
-
-<p>Lihat repositori dan kontribusi publik di <a href="https://github.com/lukmanbijak93-blip">profil GitHub Lukman Bijak Bestari</a>.</p>
-<img src="https://img.shields.io/github/followers/lukmanbijak93-blip?label=Followers&style=flat-square&color=1687D9" alt="Jumlah pengikut GitHub Lukman Bijak Bestari" />
-
-</details>
