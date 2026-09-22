@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="156" viewBox="0 0 1000 156" role="img" aria-labelledby="title desc">
+  <title id="title">Dari proses bisnis menjadi solusi digital</title>
+  <desc id="desc">Empat tahap: pahami proses, hubungkan sistem, otomatisasi pekerjaan, evaluasi hasil.</desc>
+  <rect width="1000" height="156" rx="16" fill="#0d2035"/>
+  <path d="M122 55H878" stroke="#294762" stroke-width="2"/>
+  <g fill="#123855" stroke="#409edf" stroke-width="2">
+    <circle cx="125" cy="55" r="21"/><circle cx="375" cy="55" r="21"/>
+    <circle cx="625" cy="55" r="21"/><circle cx="875" cy="55" r="21"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif" text-anchor="middle">
+    <g fill="#a6ddff" font-size="14" font-weight="700">
+      <text x="125" y="60">01</text><text x="375" y="60">02</text>
+      <text x="625" y="60">03</text><text x="875" y="60">04</text>
+    </g>
+    <g fill="#f0f6ff" font-size="18" font-weight="600">
+      <text x="125" y="107">Pahami proses</text><text x="375" y="107">Hubungkan sistem</text>
+      <text x="625" y="107">Otomatisasi</text><text x="875" y="107">Evaluasi hasil</text>
+    </g>
+    <g fill="#9ab3cb" font-size="13">
+      <text x="125" y="131">Kebutuhan &amp; alur kerja</text><text x="375" y="131">Data &amp; integrasi API</text>
+      <text x="625" y="131">Validasi &amp; sinkronisasi</text><text x="875" y="131">Laporan &amp; perbaikan</text>
+    </g>
+  </g>
+</svg>

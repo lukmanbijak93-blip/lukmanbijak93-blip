@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Lukman Bijak Bestari</title>
+  <desc id="desc">Business Systems, Data, Automation. Trainer Accurate Online dan developer sistem bisnis.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#0b1528"/>
+      <stop offset="1" stop-color="#102f4c"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#8ccfff" stroke-opacity=".055"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="340" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="20" fill="url(#grid)"/>
+  <path d="M56 64H100" stroke="#48b7ff" stroke-width="4" stroke-linecap="round"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="56" y="107" fill="#84ccff" font-size="14" font-weight="600" letter-spacing="3">BUSINESS SYSTEMS / DATA / AUTOMATION</text>
+    <text x="53" y="176" fill="#f3f8ff" font-size="49" font-weight="700">Lukman Bijak Bestari</text>
+    <text x="56" y="217" fill="#bdcfe1" font-size="21">Trainer Accurate Online &amp; Developer Sistem Bisnis</text>
+    <text x="56" y="285" fill="#87a5c2" font-size="15">Proses yang jelas. Data terhubung. Pekerjaan lebih mudah.</text>
+  </g>
+  <g transform="translate(850 66)" fill="none" stroke="#46aefa" stroke-width="2">
+    <path d="M42 54H107V107H173M107 107V181H238" opacity=".65"/>
+    <rect x="0" y="20" width="84" height="68" rx="13" fill="#122e4b"/>
+    <rect x="172" y="73" width="112" height="68" rx="13" fill="#122e4b"/>
+    <rect x="171" y="157" width="112" height="52" rx="13" fill="#122e4b"/>
+    <path d="M24 43H60M24 55H51M24 67H56M193 121V107M210 121V99M227 121V90M244 121V103" stroke="#9ddcff" stroke-linecap="round" stroke-width="3"/>
+    <path d="m193 183 8 8 15-17M230 183H260" stroke="#9ddcff" stroke-linecap="round"/>
+    <circle cx="107" cy="107" r="6" fill="#70c9ff" stroke="#102f4c"/>
+  </g>
+</svg>
