@@ -1,5 +1,6 @@
 import { mkdir, writeFile } from 'node:fs/promises';
-import { pathToFileURL } from 'node:url';
+import { resolve } from 'node:path';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import { fetchContributions } from './contributions.mjs';
 
 const username = process.env.PROFILE_USERNAME || 'lukmanbijak93-blip';
@@ -70,11 +71,12 @@ async function main() {
   const now = new Date();
   const stats = { ...summarize(user, repositories), ...await fetchContributions(username, user.created_at, now, process.env.GITHUB_TOKEN) };
   const updatedAt = now.toISOString();
-  await mkdir(new URL('../assets/', import.meta.url), { recursive: true });
+  const outputDirectory = resolve(process.env.PROFILE_OUTPUT_DIR || fileURLToPath(new URL('../assets/', import.meta.url)));
+  await mkdir(outputDirectory, { recursive: true });
   await Promise.all([
-    writeFile(new URL('../assets/github-highlights.svg', import.meta.url), render(stats, updatedAt)),
-    writeFile(new URL('../assets/github-highlights-mobile.svg', import.meta.url), render(stats, updatedAt, true)),
-    writeFile(new URL('../assets/github-highlights.json', import.meta.url), JSON.stringify({ username, updatedAt, ...stats }, null, 2) + '\n'),
+    writeFile(resolve(outputDirectory, 'github-highlights.svg'), render(stats, updatedAt)),
+    writeFile(resolve(outputDirectory, 'github-highlights-mobile.svg'), render(stats, updatedAt, true)),
+    writeFile(resolve(outputDirectory, 'github-highlights.json'), JSON.stringify({ username, updatedAt, ...stats }, null, 2) + '\n'),
   ]);
   console.log(`Updated public statistics for ${username} at ${updatedAt}`);
 }

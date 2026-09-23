@@ -1,6 +1,6 @@
 # GitHub Highlights
 
-Workflow: `.github/workflows/snake.yml` (the former root-level `snake.yml` was not discoverable by GitHub Actions).
+Workflow: `.github/workflows/snake.yml`. Generated cards and snake files are published to the `output` branch so automated updates never create commits or push conflicts on `main`.
 
 ## Update behavior
 
@@ -9,16 +9,16 @@ Workflow: `.github/workflows/snake.yml` (the former root-level `snake.yml` was n
 - Reads the public GitHub REST API; paginates all owned repositories. Stars and forks exclude forked repositories. These metrics do not count commits or contributions.
 - Fetches contribution calendars from account creation through today, one year per GraphQL request using `GITHUB_TOKEN`. Local runs without a token read the public GitHub contribution calendar HTML and reject missing or unrecognized data. All requests must succeed before assets are written.
 - Total contributions sums daily counts across all fetched years. Streaks count consecutive nonzero days, including across year boundaries. The current streak includes yesterday when today is still empty, and resets after a full missed day. Dates use UTC; the synchronization timestamp is displayed in WIB. Private contributions depend on calendar visibility/token access and may be absent.
-- Writes desktop/mobile SVG cards and a JSON snapshot with a timestamp. Zeroes are real API values, not placeholders. A failed API request stops publication.
+- Writes desktop/mobile SVG cards and a JSON snapshot with a timestamp to the workflow's `dist` directory. Zeroes are real API values, not placeholders. A failed API request stops publication.
 - Generates the contribution snake separately using `Platane/snk`, then links the generated files in README. Before the first successful run, README shows an explicit pending message rather than broken images.
-- Commits generated assets with the repository's built-in `GITHUB_TOKEN`; no personal access token is required. Both generation steps must succeed before publishing.
-- Bot commits use `[skip ci]` to avoid recursive updates. GitHub image caching may still delay display.
+- Publishes generated assets to the `output` branch with the repository's built-in `GITHUB_TOKEN`; no personal access token is required. Both generation steps must succeed before publishing. `main` is never modified by the workflow.
+- GitHub image caching may delay display even after the `output` branch has updated.
 
 ## Activation and diagnosis
 
 Push these files to the default branch (`main`). Open **Actions → Update GitHub Highlights → Run workflow** if an immediate refresh is needed. Check the run logs and the timestamp in `assets/github-highlights.json`.
 
-If saving assets is rejected, check Actions write permissions and branch protection. Scheduled workflows in inactive public repositories can be disabled by GitHub; re-enable the workflow if needed. A workflow cannot update the published profile while its changes exist only locally.
+If publishing assets is rejected, check Actions write permissions and whether the `output` branch is protected. Scheduled workflows in inactive public repositories can be disabled by GitHub; re-enable the workflow if needed. A workflow cannot update the published profile while its changes exist only locally.
 
 ## Local verification
 

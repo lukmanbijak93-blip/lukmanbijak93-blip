@@ -86,8 +86,8 @@ Total kontribusi, streak saat ini, dan streak terpanjang dari kalender GitHub se
 
 <a href="https://github.com/lukmanbijak93-blip">
   <picture>
-    <source media="(max-width: 600px)" srcset="./assets/github-highlights-mobile.svg" />
-    <img src="./assets/github-highlights.svg" width="100%" alt="GitHub Highlights Lukman Bijak Bestari: total kontribusi, streak saat ini, streak terpanjang, repositori publik, followers, stars, forks, dan waktu sinkronisasi." />
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/lukmanbijak93-blip/lukmanbijak93-blip/output/github-highlights-mobile.svg" />
+    <img src="https://raw.githubusercontent.com/lukmanbijak93-blip/lukmanbijak93-blip/output/github-highlights.svg" width="100%" alt="GitHub Highlights Lukman Bijak Bestari: total kontribusi, streak saat ini, streak terpanjang, repositori publik, followers, stars, forks, dan waktu sinkronisasi." />
   </picture>
 </a>
 
@@ -97,8 +97,8 @@ Animasi berdasarkan kalender kontribusi GitHub saya.
 
 <!-- contribution-snake:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-contribution-grid-snake-dark.svg" />
-  <img src="./assets/github-contribution-grid-snake.svg" width="100%" alt="Animasi snake dari kalender kontribusi GitHub Lukman Bijak Bestari. Buka tautan Kalender kontribusi untuk melihat detail per hari." />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lukmanbijak93-blip/lukmanbijak93-blip/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/lukmanbijak93-blip/lukmanbijak93-blip/output/github-contribution-grid-snake.svg" width="100%" alt="Animasi snake dari kalender kontribusi GitHub Lukman Bijak Bestari. Buka tautan Kalender kontribusi untuk melihat detail per hari." />
 </picture>
 <!-- contribution-snake:end -->
 
