@@ -22,33 +22,12 @@ Keahlian utama saya mencakup **pelatihan dan implementasi Accurate Online**, **i
 
 ## What I Build
 
-Saya membangun solusi yang mengikuti **alur kerja, data, dan kebutuhan tim Anda**.
+Saya membangun solusi yang mengikuti **alur kerja, data, dan kebutuhan tim Anda** — dari aplikasi operasional hingga otomatisasi dan pelaporan.
 
-<img src="https://img.icons8.com/ios-filled/32/1687D9/office.png" width="28" alt="" />
-<h3>Business Applications</h3>
-<p>Aplikasi web khusus untuk mengelola aktivitas operasional dalam satu alur kerja yang terstruktur.</p>
-<p><code>Sales &amp; purchasing</code> <code>Inventory</code> <code>Approvals</code></p>
-<p><strong>Manfaat:</strong> Membantu tim menjalankan pekerjaan harian dengan alur yang jelas.</p>
-<img src="https://img.icons8.com/ios-filled/32/1687D9/synchronize.png" width="28" alt="" />
-<h3>Accurate Online Integrations</h3>
-<p>Hubungkan Accurate Online dengan aplikasi bisnis, file Excel, dan platform lain melalui API.</p>
-<p><code>REST API</code> <code>Data synchronization</code> <code>Excel integration</code></p>
-<p><strong>Manfaat:</strong> Menjaga data tetap terhubung dan mengurangi input berulang.</p>
-<img src="./assets/chart.svg" width="28" alt="" />
-<h3>Reporting &amp; Dashboards</h3>
-<p>Ubah data operasional dan keuangan menjadi laporan serta dashboard untuk mendukung keputusan sehari-hari.</p>
-<p><code>Financial reports</code> <code>Operational monitoring</code> <code>Analytics</code></p>
-<p><strong>Manfaat:</strong> Mempermudah pemantauan kinerja dan penentuan tindak lanjut.</p>
-<img src="https://img.icons8.com/ios-filled/32/1687D9/data-configuration.png" width="28" alt="" />
-<h3>Data Processing Tools</h3>
-<p>Tools untuk memvalidasi, merekonsiliasi, mengonversi, dan memindahkan data bisnis antar sistem.</p>
-<p><code>Validation</code> <code>Reconciliation</code> <code>Import / export</code></p>
-<p><strong>Manfaat:</strong> Menyiapkan data yang konsisten untuk proses bisnis.</p>
-<img src="https://img.icons8.com/ios-filled/32/1687D9/workflow.png" width="28" alt="" />
-<h3>Workflow Automation</h3>
-<p>Satukan aplikasi, integrasi, dan pengolahan data melalui tugas terjadwal serta aturan validasi.</p>
-<p><code>Scheduled synchronization</code> <code>Automated reporting</code> <code>Process automation</code></p>
-<p><strong>Manfaat:</strong> Mengurangi pekerjaan manual agar tim dapat fokus pada pengambilan keputusan.</p>
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/what-i-build-mobile.svg" />
+  <img src="./assets/what-i-build.svg" width="100%" alt="Lima solusi: Business Applications untuk alur operasional yang jelas; Accurate Online Integrations untuk mengurangi input berulang; Reporting dan Dashboards untuk memantau kinerja; Data Processing Tools untuk menjaga konsistensi data; dan Workflow Automation untuk mengurangi pekerjaan manual." />
+</picture>
 
 ## How I Work
 

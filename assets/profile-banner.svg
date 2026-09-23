@@ -1,9 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-<title id="title">Lukman Bijak Bestari</title><desc id="desc">Trainer Accurate Online dan developer sistem bisnis. Proses, data, dan sistem yang saling terhubung.</desc>
-<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#071527"/><stop offset=".55" stop-color="#0c2941"/><stop offset="1" stop-color="#0b2034"/></linearGradient><linearGradient id="accent" x2="1"><stop stop-color="#48c9f5"/><stop offset="1" stop-color="#83e3cc"/></linearGradient><pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#92cfe7" stroke-opacity=".065"/></pattern></defs>
-<style>.line{stroke-dasharray:430;animation:draw 2.2s ease-out .2s both}.dot{animation:pulse 3s ease-in-out infinite;transform-origin:center}.float{animation:float 5s ease-in-out infinite}.reveal{animation:reveal .8s ease-out both}.delay1{animation-delay:.18s}.delay2{animation-delay:.35s}.delay3{animation-delay:.5s}@keyframes draw{from{stroke-dashoffset:430}to{stroke-dashoffset:0}}@keyframes pulse{50%{opacity:.45;transform:scale(.78)}}@keyframes float{50%{transform:translateY(-5px)}}@keyframes reveal{from{opacity:.65}to{opacity:1}}@media(prefers-reduced-motion:reduce){.line,.dot,.float,.reveal{animation:none}}</style>
-<rect width="1200" height="360" rx="24" fill="url(#bg)"/><rect width="1200" height="360" rx="24" fill="url(#grid)"/>
-<rect x="54" y="49" width="236" height="30" rx="15" fill="#153b52" stroke="#316480"/><circle cx="70" cy="64" r="4" fill="#75dec6" class="dot"/><text x="84" y="69" fill="#b6e9ec" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.1">BUSINESS SYSTEMS</text>
-<g font-family="Segoe UI,Arial,sans-serif"><text x="54" y="153" fill="#f4fbff" font-size="54" font-weight="750" class="reveal">Lukman Bijak Bestari</text><text x="56" y="197" fill="#b8d2e1" font-size="21" class="reveal delay1">Trainer Accurate Online &amp; Developer Sistem Bisnis</text><rect x="56" y="229" width="72" height="3" rx="2" fill="url(#accent)"/><text x="56" y="274" fill="#d3e4ef" font-size="17" class="reveal delay2">Proses lebih jelas. Data lebih terhubung.</text><text x="56" y="301" fill="#8eafc2" font-size="15" class="reveal delay3">Integrasi API  /  Otomatisasi  /  Pelaporan</text></g>
-<g transform="translate(817 42)" class="float"><rect x="28" y="11" width="309" height="266" rx="23" fill="#0b1d30" stroke="#315775"/><rect x="48" y="31" width="269" height="42" rx="10" fill="#12344d"/><circle cx="67" cy="52" r="5" fill="#75dec6"/><circle cx="84" cy="52" r="5" fill="#4aa9d9"/><circle cx="101" cy="52" r="5" fill="#286486"/><text x="119" y="57" fill="#a8cbda" font-family="Segoe UI,Arial,sans-serif" font-size="13">connected workflow</text><path d="M94 132H165V192H246" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="line"/><circle cx="94" cy="132" r="24" fill="#143d56" stroke="#56bfdf" stroke-width="2"/><circle cx="165" cy="132" r="24" fill="#143d56" stroke="#56bfdf" stroke-width="2"/><circle cx="165" cy="192" r="24" fill="#143d56" stroke="#56bfdf" stroke-width="2"/><circle cx="246" cy="192" r="24" fill="#143d56" stroke="#75dec6" stroke-width="2"/><g fill="#d8f4f5" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle"><text x="94" y="138">01</text><text x="165" y="138">02</text><text x="165" y="198">03</text><text x="246" y="198">04</text></g><text x="60" y="248" fill="#86a9be" font-family="Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="1.5">PROCESS → INSIGHT</text></g>
+  <title id="title">Lukman Bijak Bestari</title>
+  <desc id="desc">Trainer Accurate Online dan developer sistem bisnis. Proses lebih jelas, data lebih terhubung.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#071527"/><stop offset=".55" stop-color="#0c2941"/><stop offset="1" stop-color="#0b2034"/></linearGradient>
+    <linearGradient id="accent" x2="1"><stop stop-color="#48c9f5"/><stop offset="1" stop-color="#83e3cc"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#27799c" stop-opacity=".25"/><stop offset="1" stop-color="#27799c" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#92cfe7" stroke-opacity=".055"/></pattern>
+  </defs>
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+  <circle cx="1057" cy="174" r="250" fill="url(#halo)"/>
+  <g fill="none" stroke="#78cfe3" stroke-opacity=".15">
+    <circle cx="1056" cy="180" r="116"/>
+    <circle cx="1056" cy="180" r="155"/>
+    <circle cx="1056" cy="180" r="194"/>
+    <path d="M900 180h312M1056 25v310" stroke-opacity=".08"/>
+  </g>
+  <g fill="#83e3cc"><circle cx="961" cy="114" r="4" opacity=".7"/><circle cx="1172" cy="149" r="3" opacity=".55"/><circle cx="1085" cy="290" r="4" opacity=".65"/></g>
+  <path d="M900 250c54-34 88-99 156-70 49 21 91-14 132-79" fill="none" stroke="url(#accent)" stroke-width="2" stroke-opacity=".35" stroke-linecap="round"/>
+  <rect x="54" y="49" width="236" height="30" rx="15" fill="#153b52" stroke="#316480"/>
+  <circle cx="70" cy="64" r="4" fill="#75dec6"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="84" y="69" fill="#b6e9ec" font-size="12" font-weight="700" letter-spacing="1.1">BUSINESS SYSTEMS</text>
+    <text x="54" y="153" fill="#f4fbff" font-size="54" font-weight="750">Lukman Bijak Bestari</text>
+    <text x="56" y="197" fill="#b8d2e1" font-size="21">Trainer Accurate Online &amp; Developer Sistem Bisnis</text>
+    <rect x="56" y="229" width="72" height="3" rx="2" fill="url(#accent)"/>
+    <text x="56" y="274" fill="#d3e4ef" font-size="17">Proses lebih jelas. Data lebih terhubung.</text>
+    <text x="56" y="301" fill="#8eafc2" font-size="15">Integrasi API  /  Otomatisasi  /  Pelaporan</text>
+  </g>
 </svg>
