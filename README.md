@@ -96,7 +96,10 @@ Statistik publik dari GitHub, dengan waktu sinkronisasi pada kartu berikut.
 Animasi berdasarkan kalender kontribusi GitHub saya.
 
 <!-- contribution-snake:start -->
-Animasi akan muncul setelah workflow **Update GitHub Highlights** berhasil dijalankan pertama kali di GitHub.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-contribution-grid-snake-dark.svg" />
+  <img src="./assets/github-contribution-grid-snake.svg" width="100%" alt="Animasi snake dari kalender kontribusi GitHub Lukman Bijak Bestari. Buka tautan Kalender kontribusi untuk melihat detail per hari." />
+</picture>
 <!-- contribution-snake:end -->
 
 Pembaruan dijadwalkan setiap 6 jam. Jadwal GitHub Actions dapat tertunda; waktu pada kartu menunjukkan sinkronisasi terakhir yang berhasil. Angka hanya berubah jika aktivitas terkait berubah.
