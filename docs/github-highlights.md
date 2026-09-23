@@ -1,0 +1,25 @@
+# GitHub Highlights
+
+Workflow: `.github/workflows/snake.yml` (the former root-level `snake.yml` was not discoverable by GitHub Actions).
+
+## Update behavior
+
+- Runs after changes to README, scripts, or the workflow on `main`; also supports manual dispatch.
+- Scheduled at 00:23, 06:23, 12:23, 18:23 UTC (07:23, 13:23, 19:23, 01:23 WIB). GitHub may delay scheduled jobs.
+- Reads the public GitHub REST API; paginates all owned repositories. Stars and forks exclude forked repositories. These metrics do not count commits or contributions.
+- Writes desktop/mobile SVG cards and a JSON snapshot with a timestamp. Zeroes are real API values, not placeholders. A failed API request stops publication.
+- Generates the contribution snake separately using `Platane/snk`, then links the generated files in README. Before the first successful run, README shows an explicit pending message rather than broken images.
+- Commits generated assets with the repository's built-in `GITHUB_TOKEN`; no personal access token is required. Both generation steps must succeed before publishing.
+- Bot commits use `[skip ci]` to avoid recursive updates. GitHub image caching may still delay display.
+
+## Activation and diagnosis
+
+Push these files to the default branch (`main`). Open **Actions → Update GitHub Highlights → Run workflow** if an immediate refresh is needed. Check the run logs and the timestamp in `assets/github-highlights.json`.
+
+If saving assets is rejected, check Actions write permissions and branch protection. Scheduled workflows in inactive public repositories can be disabled by GitHub; re-enable the workflow if needed. A workflow cannot update the published profile while its changes exist only locally.
+
+## Local verification
+
+Requires Node.js 22 or later. Run `node scripts/update-highlights.mjs` to fetch public metrics and `node --test scripts/update-highlights.test.mjs` to verify aggregation and timestamp rendering. Optional `GITHUB_TOKEN` increases API limits; never commit it.
+
+README uses native headings, wrapping text, and `picture` sources for mobile images. GitHub sanitizes custom page styles, so service cards use a single column rather than a CSS grid. The snake is a full-year overview; the contribution calendar link provides readable daily detail on small screens.

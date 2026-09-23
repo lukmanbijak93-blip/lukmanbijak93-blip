@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="242" viewBox="0 0 440 242" role="img" aria-labelledby="title desc">
+<title id="title">Lukman Bijak Bestari</title>
+<desc id="desc">Trainer Accurate Online dan developer sistem bisnis. Business systems, data, automation.</desc>
+<rect width="440" height="242" rx="16" fill="#0d2035"/>
+<path d="M28 32H69" stroke="#48b7ff" stroke-width="4" stroke-linecap="round"/>
+<g font-family="Segoe UI, Arial, sans-serif">
+<text x="28" y="67" font-size="12" letter-spacing="1.5" fill="#84ccff">BUSINESS / DATA / AUTOMATION</text>
+<text x="26" y="111" font-size="34" font-weight="700" fill="#f0f6ff">Lukman Bijak</text>
+<text x="26" y="151" font-size="34" font-weight="700" fill="#f0f6ff">Bestari</text>
+<text x="28" y="191" font-size="17" fill="#b9cee0">Trainer Accurate Online</text>
+<text x="28" y="216" font-size="17" fill="#b9cee0">Developer Sistem Bisnis</text>
+</g></svg>

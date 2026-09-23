@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="338" viewBox="0 0 440 338" role="img" aria-labelledby="title desc">
+<title id="title">Dari proses bisnis menjadi solusi digital</title>
+<desc id="desc">Pahami proses, hubungkan sistem, otomatisasi pekerjaan, evaluasi hasil.</desc>
+<rect width="440" height="338" rx="16" fill="#0d2035"/>
+<path d="M48 48V288" stroke="#294762" stroke-width="2"/>
+<g font-family="Segoe UI, Arial, sans-serif">
+<g fill="#15344f" stroke="#48b7ff"><circle cx="48" cy="48" r="20"/><circle cx="48" cy="128" r="20"/><circle cx="48" cy="208" r="20"/><circle cx="48" cy="288" r="20"/></g>
+<g fill="#84ccff" text-anchor="middle" font-size="14" font-weight="700"><text x="48" y="53">01</text><text x="48" y="133">02</text><text x="48" y="213">03</text><text x="48" y="293">04</text></g>
+<g fill="#f0f6ff" font-size="20" font-weight="600"><text x="90" y="45">Pahami proses</text><text x="90" y="125">Hubungkan sistem</text><text x="90" y="205">Otomatisasi</text><text x="90" y="285">Evaluasi hasil</text></g>
+<g fill="#b9cee0" font-size="15"><text x="90" y="69">Kebutuhan &amp; alur kerja</text><text x="90" y="149">Data &amp; integrasi API</text><text x="90" y="229">Validasi &amp; sinkronisasi</text><text x="90" y="309">Laporan &amp; perbaikan</text></g>
+</g></svg>
