@@ -82,12 +82,12 @@ Linux, Nginx, Git, GitHub, Vercel
 
 ## GitHub Highlights
 
-Statistik publik dari GitHub, dengan waktu sinkronisasi pada kartu berikut.
+Total kontribusi, streak saat ini, dan streak terpanjang dari kalender GitHub sejak akun dibuat, beserta statistik repositori publik. Waktu sinkronisasi ditampilkan pada kartu berikut.
 
 <a href="https://github.com/lukmanbijak93-blip">
   <picture>
     <source media="(max-width: 600px)" srcset="./assets/github-highlights-mobile.svg" />
-    <img src="./assets/github-highlights.svg" width="100%" alt="GitHub Highlights Lukman Bijak Bestari: repositori publik, followers, stars, forks, dan waktu sinkronisasi." />
+    <img src="./assets/github-highlights.svg" width="100%" alt="GitHub Highlights Lukman Bijak Bestari: total kontribusi, streak saat ini, streak terpanjang, repositori publik, followers, stars, forks, dan waktu sinkronisasi." />
   </picture>
 </a>
 
@@ -99,7 +99,7 @@ Animasi berdasarkan kalender kontribusi GitHub saya.
 Animasi akan muncul setelah workflow **Update GitHub Highlights** berhasil dijalankan pertama kali di GitHub.
 <!-- contribution-snake:end -->
 
-Pembaruan dijadwalkan setiap 6 jam. Jadwal GitHub Actions dapat tertunda; waktu pada kartu menunjukkan sinkronisasi terakhir yang berhasil. Angka hanya berubah jika aktivitas terkait berubah.
+Pembaruan dijadwalkan setiap 6 jam. Jadwal GitHub Actions dapat tertunda; waktu pada kartu menunjukkan sinkronisasi terakhir yang berhasil. Streak dihitung dari hari berkontribusi berturut-turut berdasarkan tanggal kalender GitHub (UTC). Jika hari ini belum ada kontribusi, streak kemarin tetap berlaku sampai hari ini berakhir. Data mengikuti kalender yang dapat diakses; kontribusi privat dapat tidak tercakup.
 
 [Jelajahi repositori](https://github.com/lukmanbijak93-blip?tab=repositories) / [Kalender kontribusi](https://github.com/lukmanbijak93-blip?tab=overview) / [Status pembaruan](https://github.com/lukmanbijak93-blip/lukmanbijak93-blip/actions/workflows/snake.yml)
 

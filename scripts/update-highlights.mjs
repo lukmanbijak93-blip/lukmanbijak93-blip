@@ -1,5 +1,6 @@
 import { mkdir, writeFile } from 'node:fs/promises';
 import { pathToFileURL } from 'node:url';
+import { fetchContributions } from './contributions.mjs';
 
 const username = process.env.PROFILE_USERNAME || 'lukmanbijak93-blip';
 if (!/^[a-z\d](?:[a-z\d-]{0,37}[a-z\d])?$/i.test(username)) throw new Error('Invalid GitHub username');
@@ -28,22 +29,31 @@ export function summarize(user, repositories) {
 
 export function render(stats, updatedAt, mobile = false) {
   const width = mobile ? 400 : 1000;
-  const height = mobile ? 340 : 236;
+  const height = mobile ? 686 : 396;
   const date = new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Jakarta', day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date(updatedAt));
   const metrics = [[stats.publicRepositories, 'Repositori publik'], [stats.followers, 'Followers'], [stats.stars, 'Stars'], [stats.forks, 'Forks']];
+  const contributionMetrics = [[stats.totalContributions, 'Total kontribusi'], [stats.currentStreak, 'Streak saat ini'], [stats.longestStreak, 'Streak terpanjang']];
+  const contributionCards = contributionMetrics.map(([value, label], i) => {
+    const x = mobile ? 24 : 28 + i * 326;
+    const y = mobile ? 94 + i * 98 : 89;
+    return `<g transform="translate(${x} ${y})"><rect width="${mobile ? 352 : 292}" height="86" rx="12" fill="#194260"/><text x="18" y="37" font-size="30" font-weight="700" fill="#f0f6ff">${value.toLocaleString('en-US')}${i ? '<tspan dx="6" font-size="14" fill="#b9cee0">hari</tspan>' : ''}</text><text x="18" y="65" font-size="15" fill="#b9cee0">${label}</text></g>`;
+  }).join('\n');
   const cards = metrics.map(([value, label], i) => {
     const x = mobile ? 24 + (i % 2) * 184 : 28 + i * 244;
-    const y = mobile ? 94 + Math.floor(i / 2) * 106 : 89;
+    const y = mobile ? 406 + Math.floor(i / 2) * 106 : 218;
     return `<g transform="translate(${x} ${y})"><rect width="${mobile ? 168 : 216}" height="90" rx="12" fill="#15344f"/><text x="18" y="39" font-size="30" font-weight="700" fill="#f0f6ff">${value.toLocaleString('en-US')}</text><text x="18" y="67" font-size="14" fill="#b9cee0">${label}</text></g>`;
   }).join('\n');
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="title desc">
 <title id="title">GitHub Highlights: ${username}</title>
-<desc id="desc">${metrics.map(([v, label]) => `${label}: ${v}`).join('. ')}. Sinkronisasi ${date} WIB. Stars dan forks dari repositori publik non-fork.</desc>
+<desc id="desc">${[...contributionMetrics, ...metrics].map(([v, label]) => `${label}: ${v}`).join('. ')}. Streak dalam hari. Kalender sejak ${stats.contributionsFrom} sampai ${stats.contributionsThrough}, UTC. Sinkronisasi ${date} WIB.</desc>
 <rect width="${width}" height="${height}" rx="16" fill="#0d2035"/>
 <g font-family="Segoe UI, Arial, sans-serif">
 <text x="${mobile ? 24 : 28}" y="36" font-size="16" font-weight="700" letter-spacing="1" fill="#84ccff">GITHUB / PUBLIC ACTIVITY</text>
 <text x="${mobile ? 24 : 28}" y="63" font-size="${mobile ? 12 : 14}" fill="#b9cee0">Sinkronisasi: ${date} WIB</text>
+${contributionCards}
 ${cards}
+<text x="${mobile ? 24 : 28}" y="${height - 51}" font-size="${mobile ? 11 : 13}" fill="#9ab3cb">Kontribusi sejak akun dibuat; streak harian (UTC).</text>
+<text x="${mobile ? 24 : 28}" y="${height - 35}" font-size="${mobile ? 11 : 13}" fill="#9ab3cb">Kalender sampai ${stats.contributionsThrough}.</text>
 <text x="${mobile ? 24 : 28}" y="${height - 19}" font-size="${mobile ? 11 : 13}" fill="#9ab3cb">Stars &amp; forks: repositori publik non-fork</text>
 </g></svg>\n`;
 }
@@ -57,8 +67,9 @@ async function main() {
     repositories.push(...batch);
     if (batch.length < 100) break;
   }
-  const stats = summarize(user, repositories);
-  const updatedAt = new Date().toISOString();
+  const now = new Date();
+  const stats = { ...summarize(user, repositories), ...await fetchContributions(username, user.created_at, now, process.env.GITHUB_TOKEN) };
+  const updatedAt = now.toISOString();
   await mkdir(new URL('../assets/', import.meta.url), { recursive: true });
   await Promise.all([
     writeFile(new URL('../assets/github-highlights.svg', import.meta.url), render(stats, updatedAt)),

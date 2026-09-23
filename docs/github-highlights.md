@@ -7,6 +7,8 @@ Workflow: `.github/workflows/snake.yml` (the former root-level `snake.yml` was n
 - Runs after changes to README, scripts, or the workflow on `main`; also supports manual dispatch.
 - Scheduled at 00:23, 06:23, 12:23, 18:23 UTC (07:23, 13:23, 19:23, 01:23 WIB). GitHub may delay scheduled jobs.
 - Reads the public GitHub REST API; paginates all owned repositories. Stars and forks exclude forked repositories. These metrics do not count commits or contributions.
+- Fetches contribution calendars from account creation through today, one year per GraphQL request using `GITHUB_TOKEN`. Local runs without a token read the public GitHub contribution calendar HTML and reject missing or unrecognized data. All requests must succeed before assets are written.
+- Total contributions sums daily counts across all fetched years. Streaks count consecutive nonzero days, including across year boundaries. The current streak includes yesterday when today is still empty, and resets after a full missed day. Dates use UTC; the synchronization timestamp is displayed in WIB. Private contributions depend on calendar visibility/token access and may be absent.
 - Writes desktop/mobile SVG cards and a JSON snapshot with a timestamp. Zeroes are real API values, not placeholders. A failed API request stops publication.
 - Generates the contribution snake separately using `Platane/snk`, then links the generated files in README. Before the first successful run, README shows an explicit pending message rather than broken images.
 - Commits generated assets with the repository's built-in `GITHUB_TOKEN`; no personal access token is required. Both generation steps must succeed before publishing.
