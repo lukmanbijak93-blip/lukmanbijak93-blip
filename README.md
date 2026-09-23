@@ -6,11 +6,11 @@
 </picture>
 
 <h1>Lukman Bijak Bestari</h1>
-<p><strong>Trainer Accurate Online &amp; Developer Sistem Bisnis</strong></p>
-<p>Membantu bisnis mengintegrasikan Accurate Online, mengotomatisasi pekerjaan, dan membangun dashboard pelaporan yang mudah digunakan.</p>
+<p><strong>Trainer Accurate Online · Developer Sistem Bisnis</strong></p>
+<p>Saya membantu tim menyambungkan sistem, merapikan data, dan menyederhanakan pekerjaan operasional.</p>
 
 
-<p><a href="#what-i-build">Layanan</a> &nbsp; / &nbsp; <a href="#tech-stack">Teknologi</a> &nbsp; / &nbsp; <a href="#github-highlights">GitHub</a> &nbsp; / &nbsp; <a href="#lets-connect">Kontak</a></p>
+<p><a href="#what-i-build">Solusi</a> &nbsp;·&nbsp; <a href="#how-i-work">Proses</a> &nbsp;·&nbsp; <a href="#github-highlights">GitHub</a> &nbsp;·&nbsp; <a href="#lets-connect">Kontak</a></p>
 
 </div>
 
@@ -22,7 +22,7 @@ Keahlian utama saya mencakup **pelatihan dan implementasi Accurate Online**, **i
 
 ## What I Build
 
-Solusi yang disesuaikan dengan **alur kerja, data, dan kebutuhan tim Anda**.
+Saya membangun solusi yang mengikuti **alur kerja, data, dan kebutuhan tim Anda**.
 
 <img src="https://img.icons8.com/ios-filled/32/1687D9/office.png" width="28" alt="" />
 <h3>Business Applications</h3>
@@ -82,7 +82,7 @@ Linux, Nginx, Git, GitHub, Vercel
 
 ## GitHub Highlights
 
-Total kontribusi, streak saat ini, dan streak terpanjang dari kalender GitHub sejak akun dibuat, beserta statistik repositori publik. Waktu sinkronisasi ditampilkan pada kartu berikut.
+Ringkasan kontribusi dan repositori publik. Waktu pembaruan terakhir tertera pada kartu.
 
 <a href="https://github.com/lukmanbijak93-blip">
   <picture>
@@ -102,9 +102,9 @@ Animasi berdasarkan kalender kontribusi GitHub saya.
 </picture>
 <!-- contribution-snake:end -->
 
-Pembaruan dijadwalkan setiap 6 jam. Jadwal GitHub Actions dapat tertunda; waktu pada kartu menunjukkan sinkronisasi terakhir yang berhasil. Streak dihitung dari hari berkontribusi berturut-turut berdasarkan tanggal kalender GitHub (UTC). Jika hari ini belum ada kontribusi, streak kemarin tetap berlaku sampai hari ini berakhir. Data mengikuti kalender yang dapat diakses; kontribusi privat dapat tidak tercakup.
+Kartu diperbarui otomatis setiap 30 menit. GitHub dapat menunda workflow atau menyimpan gambar dalam cache, sehingga angka pada kartu tidak selalu berubah saat halaman dibuka. Untuk aktivitas terkini, buka [kalender kontribusi langsung di GitHub](https://github.com/lukmanbijak93-blip?tab=overview). Streak memakai tanggal kalender GitHub (UTC); kontribusi privat bergantung pada visibilitas akun.
 
-[Jelajahi repositori](https://github.com/lukmanbijak93-blip?tab=repositories) / [Kalender kontribusi](https://github.com/lukmanbijak93-blip?tab=overview) / [Status pembaruan](https://github.com/lukmanbijak93-blip/lukmanbijak93-blip/actions/workflows/snake.yml)
+[Jelajahi repositori](https://github.com/lukmanbijak93-blip?tab=repositories) · [Aktivitas terbaru](https://github.com/lukmanbijak93-blip?tab=overview) · [Status pembaruan kartu](https://github.com/lukmanbijak93-blip/lukmanbijak93-blip/actions/workflows/snake.yml)
 
 ## Let's Connect
 

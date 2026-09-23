@@ -37,20 +37,22 @@ export function render(stats, updatedAt, mobile = false) {
   const contributionCards = contributionMetrics.map(([value, label], i) => {
     const x = mobile ? 24 : 28 + i * 326;
     const y = mobile ? 94 + i * 98 : 89;
-    return `<g transform="translate(${x} ${y})"><rect width="${mobile ? 352 : 292}" height="86" rx="12" fill="#194260"/><text x="18" y="37" font-size="30" font-weight="700" fill="#f0f6ff">${value.toLocaleString('en-US')}${i ? '<tspan dx="6" font-size="14" fill="#b9cee0">hari</tspan>' : ''}</text><text x="18" y="65" font-size="15" fill="#b9cee0">${label}</text></g>`;
+    return `<g transform="translate(${x} ${y})" class="card"><rect width="${mobile ? 352 : 292}" height="86" rx="14" fill="#15364d" stroke="#2b5970"/><rect x="17" y="16" width="27" height="3" rx="1.5" fill="${i === 0 ? '#7de0cb' : '#58b9e9'}"/><text x="18" y="49" font-size="30" font-weight="700" fill="#f0f8fc">${value.toLocaleString('en-US')}${i ? '<tspan dx="6" font-size="14" fill="#b9cee0">hari</tspan>' : ''}</text><text x="18" y="72" font-size="14" fill="#b9cee0">${label}</text></g>`;
   }).join('\n');
   const cards = metrics.map(([value, label], i) => {
     const x = mobile ? 24 + (i % 2) * 184 : 28 + i * 244;
     const y = mobile ? 406 + Math.floor(i / 2) * 106 : 218;
-    return `<g transform="translate(${x} ${y})"><rect width="${mobile ? 168 : 216}" height="90" rx="12" fill="#15344f"/><text x="18" y="39" font-size="30" font-weight="700" fill="#f0f6ff">${value.toLocaleString('en-US')}</text><text x="18" y="67" font-size="14" fill="#b9cee0">${label}</text></g>`;
+    return `<g transform="translate(${x} ${y})" class="card"><rect width="${mobile ? 168 : 216}" height="90" rx="14" fill="#102b41" stroke="#284b62"/><text x="18" y="43" font-size="28" font-weight="700" fill="#f0f8fc">${value.toLocaleString('en-US')}</text><text x="18" y="70" font-size="14" fill="#b9cee0">${label}</text></g>`;
   }).join('\n');
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="title desc">
 <title id="title">GitHub Highlights: ${username}</title>
 <desc id="desc">${[...contributionMetrics, ...metrics].map(([v, label]) => `${label}: ${v}`).join('. ')}. Streak dalam hari. Kalender sejak ${stats.contributionsFrom} sampai ${stats.contributionsThrough}, UTC. Sinkronisasi ${date} WIB.</desc>
-<rect width="${width}" height="${height}" rx="16" fill="#0d2035"/>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#071527"/><stop offset="1" stop-color="#10334a"/></linearGradient></defs>
+<style>.card{animation:enter .65s ease-out both}.card:nth-of-type(2){animation-delay:.1s}.card:nth-of-type(3){animation-delay:.2s}.card:nth-of-type(4){animation-delay:.3s}@keyframes enter{from{opacity:.65}to{opacity:1}}@media(prefers-reduced-motion:reduce){.card{animation:none}}</style>
+<rect width="${width}" height="${height}" rx="18" fill="url(#bg)"/>
 <g font-family="Segoe UI, Arial, sans-serif">
-<text x="${mobile ? 24 : 28}" y="36" font-size="16" font-weight="700" letter-spacing="1" fill="#84ccff">GITHUB / PUBLIC ACTIVITY</text>
-<text x="${mobile ? 24 : 28}" y="63" font-size="${mobile ? 12 : 14}" fill="#b9cee0">Sinkronisasi: ${date} WIB</text>
+<text x="${mobile ? 24 : 28}" y="36" font-size="16" font-weight="700" letter-spacing="1" fill="#8ce5d7">GITHUB HIGHLIGHTS</text>
+<text x="${mobile ? 24 : 28}" y="63" font-size="${mobile ? 12 : 14}" fill="#b9cee0">Diperbarui ${date} WIB</text>
 ${contributionCards}
 ${cards}
 <text x="${mobile ? 24 : 28}" y="${height - 51}" font-size="${mobile ? 11 : 13}" fill="#9ab3cb">Kontribusi sejak akun dibuat; streak harian (UTC).</text>

@@ -2,7 +2,7 @@ name: Update GitHub Highlights
 
 on:
   schedule:
-    - cron: "23 */6 * * *"
+    - cron: "17,47 * * * *"
   workflow_dispatch:
   push:
     branches: [main]

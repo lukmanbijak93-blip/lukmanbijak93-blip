@@ -1,12 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="440" height="242" viewBox="0 0 440 242" role="img" aria-labelledby="title desc">
-<title id="title">Lukman Bijak Bestari</title>
-<desc id="desc">Trainer Accurate Online dan developer sistem bisnis. Business systems, data, automation.</desc>
-<rect width="440" height="242" rx="16" fill="#0d2035"/>
-<path d="M28 32H69" stroke="#48b7ff" stroke-width="4" stroke-linecap="round"/>
-<g font-family="Segoe UI, Arial, sans-serif">
-<text x="28" y="67" font-size="12" letter-spacing="1.5" fill="#84ccff">BUSINESS / DATA / AUTOMATION</text>
-<text x="26" y="111" font-size="34" font-weight="700" fill="#f0f6ff">Lukman Bijak</text>
-<text x="26" y="151" font-size="34" font-weight="700" fill="#f0f6ff">Bestari</text>
-<text x="28" y="191" font-size="17" fill="#b9cee0">Trainer Accurate Online</text>
-<text x="28" y="216" font-size="17" fill="#b9cee0">Developer Sistem Bisnis</text>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="278" viewBox="0 0 440 278" role="img" aria-labelledby="title desc">
+<title id="title">Lukman Bijak Bestari</title><desc id="desc">Trainer Accurate Online dan developer sistem bisnis.</desc><defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#071527"/><stop offset="1" stop-color="#10334a"/></linearGradient></defs>
+<style>.orb{animation:glow 3s ease-in-out infinite}.in{animation:show .7s ease-out both}.d1{animation-delay:.15s}.d2{animation-delay:.3s}@keyframes glow{50%{opacity:.4}}@keyframes show{from{opacity:.65}to{opacity:1}}@media(prefers-reduced-motion:reduce){.orb,.in{animation:none}}</style>
+<rect width="440" height="278" rx="20" fill="url(#bg)"/><circle cx="386" cy="49" r="60" fill="#226181" opacity=".24" class="orb"/><rect x="27" y="26" width="192" height="28" rx="14" fill="#153b52" stroke="#32637c"/><circle cx="43" cy="40" r="4" fill="#75dec6"/>
+<g font-family="Segoe UI,Arial,sans-serif"><text x="55" y="45" font-size="11" fill="#b6e9ec" font-weight="700" letter-spacing="1">BUSINESS SYSTEMS</text><text x="26" y="113" font-size="40" fill="#f4fbff" font-weight="750" class="in">Lukman Bijak</text><text x="26" y="158" font-size="40" fill="#f4fbff" font-weight="750" class="in d1">Bestari</text><path d="M28 178H95" stroke="#75dec6" stroke-width="3" stroke-linecap="round"/><text x="28" y="212" font-size="17" fill="#c4dce8" class="in d2">Trainer Accurate Online</text><text x="28" y="238" font-size="17" fill="#c4dce8" class="in d2">Developer Sistem Bisnis</text></g>
+</svg>
