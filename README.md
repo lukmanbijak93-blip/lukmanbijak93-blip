@@ -96,7 +96,10 @@ Total kontribusi, streak saat ini, dan streak terpanjang dari kalender GitHub se
 Animasi berdasarkan kalender kontribusi GitHub saya.
 
 <!-- contribution-snake:start -->
-Animasi akan muncul setelah workflow **Update GitHub Highlights** berhasil dijalankan pertama kali di GitHub.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-contribution-grid-snake-dark.svg" />
+  <img src="./assets/github-contribution-grid-snake.svg" width="100%" alt="Animasi snake dari kalender kontribusi GitHub Lukman Bijak Bestari. Buka tautan Kalender kontribusi untuk melihat detail per hari." />
+</picture>
 <!-- contribution-snake:end -->
 
 Pembaruan dijadwalkan setiap 6 jam. Jadwal GitHub Actions dapat tertunda; waktu pada kartu menunjukkan sinkronisasi terakhir yang berhasil. Streak dihitung dari hari berkontribusi berturut-turut berdasarkan tanggal kalender GitHub (UTC). Jika hari ini belum ada kontribusi, streak kemarin tetap berlaku sampai hari ini berakhir. Data mengikuti kalender yang dapat diakses; kontribusi privat dapat tidak tercakup.
