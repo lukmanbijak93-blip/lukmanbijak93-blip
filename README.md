@@ -81,10 +81,6 @@ Animasi berdasarkan kalender kontribusi GitHub saya.
 </picture>
 <!-- contribution-snake:end -->
 
-Kartu diperbarui otomatis setiap 30 menit. GitHub dapat menunda workflow atau menyimpan gambar dalam cache, sehingga angka pada kartu tidak selalu berubah saat halaman dibuka. Untuk aktivitas terkini, buka [kalender kontribusi langsung di GitHub](https://github.com/lukmanbijak93-blip?tab=overview). Streak memakai tanggal kalender GitHub (UTC); kontribusi privat bergantung pada visibilitas akun.
-
-[Jelajahi repositori](https://github.com/lukmanbijak93-blip?tab=repositories) · [Aktivitas terbaru](https://github.com/lukmanbijak93-blip?tab=overview) · [Status pembaruan kartu](https://github.com/lukmanbijak93-blip/lukmanbijak93-blip/actions/workflows/snake.yml)
-
 ## Let's Connect
 
 **Ingin mengintegrasikan Accurate Online atau menyederhanakan proses bisnis Anda?**
