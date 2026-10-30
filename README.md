@@ -61,8 +61,6 @@ Linux, Nginx, Git, GitHub, Vercel
 
 ## GitHub Highlights
 
-Ringkasan kontribusi dan repositori publik. Waktu pembaruan terakhir tertera pada kartu.
-
 <a href="https://github.com/lukmanbijak93-blip">
   <picture>
     <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/lukmanbijak93-blip/lukmanbijak93-blip/output/github-highlights-mobile.svg" />
@@ -71,8 +69,6 @@ Ringkasan kontribusi dan repositori publik. Waktu pembaruan terakhir tertera pad
 </a>
 
 ### Contribution Snake
-
-Animasi berdasarkan kalender kontribusi GitHub saya.
 
 <!-- contribution-snake:start -->
 <picture>
