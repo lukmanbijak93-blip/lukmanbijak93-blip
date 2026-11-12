@@ -1,69 +1,77 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="558" viewBox="0 0 1000 558" role="img" aria-labelledby="title desc">
-  <title id="title">What I Build — solusi sistem bisnis</title>
-  <desc id="desc">Lima solusi: aplikasi bisnis untuk alur operasional yang jelas; integrasi Accurate Online untuk mengurangi input berulang; dashboard untuk memantau kinerja; alat pengolahan data untuk data yang konsisten; dan otomatisasi workflow untuk mengurangi pekerjaan manual.</desc>
-  <defs>
-    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#071527"/><stop offset="1" stop-color="#10334a"/></linearGradient>
-    <linearGradient id="featured" x2="1"><stop stop-color="#143c54"/><stop offset="1" stop-color="#123548"/></linearGradient>
-    <linearGradient id="accent" x2="1"><stop stop-color="#48c9f5"/><stop offset="1" stop-color="#83e3cc"/></linearGradient>
-  </defs>
-  <rect width="1000" height="558" rx="20" fill="url(#bg)"/>
-  <g font-family="Segoe UI, Arial, sans-serif">
-    <g transform="translate(24 24)">
-      <rect width="466" height="158" rx="16" fill="#102d43" stroke="#31566e"/>
-      <rect x="20" y="21" width="31" height="26" rx="8" fill="#1a4b62"/>
-      <text x="35.5" y="39" text-anchor="middle" fill="#83e3cc" font-size="12" font-weight="700">01</text>
-      <text x="62" y="41" fill="#f3f9fd" font-size="20" font-weight="700">Business Applications</text>
-      <text x="20" y="77" fill="#bbd3e0" font-size="15">Aplikasi web untuk aktivitas operasional</text>
-      <text x="20" y="100" fill="#bbd3e0" font-size="15">dalam satu alur kerja yang terstruktur.</text>
-      <path d="M20 119H446" stroke="#31566e"/>
-      <circle cx="26" cy="137" r="3" fill="#83e3cc"/>
-      <text x="38" y="142" fill="#91ddda" font-size="14">Pekerjaan harian lebih jelas</text>
-    </g>
-    <g transform="translate(510 24)">
-      <rect width="466" height="158" rx="16" fill="#102d43" stroke="#31566e"/>
-      <rect x="20" y="21" width="31" height="26" rx="8" fill="#1a4b62"/>
-      <text x="35.5" y="39" text-anchor="middle" fill="#83e3cc" font-size="12" font-weight="700">02</text>
-      <text x="62" y="41" fill="#f3f9fd" font-size="20" font-weight="700">Accurate Online Integrations</text>
-      <text x="20" y="77" fill="#bbd3e0" font-size="15">Hubungkan Accurate Online dengan</text>
-      <text x="20" y="100" fill="#bbd3e0" font-size="15">aplikasi, Excel, dan platform lain.</text>
-      <path d="M20 119H446" stroke="#31566e"/>
-      <circle cx="26" cy="137" r="3" fill="#83e3cc"/>
-      <text x="38" y="142" fill="#91ddda" font-size="14">Data terhubung, input berulang berkurang</text>
-    </g>
-    <g transform="translate(24 200)">
-      <rect width="466" height="158" rx="16" fill="#102d43" stroke="#31566e"/>
-      <rect x="20" y="21" width="31" height="26" rx="8" fill="#1a4b62"/>
-      <text x="35.5" y="39" text-anchor="middle" fill="#83e3cc" font-size="12" font-weight="700">03</text>
-      <text x="62" y="41" fill="#f3f9fd" font-size="20" font-weight="700">Reporting &amp; Dashboards</text>
-      <text x="20" y="77" fill="#bbd3e0" font-size="15">Laporan keuangan dan operasional</text>
-      <text x="20" y="100" fill="#bbd3e0" font-size="15">dalam tampilan yang mudah dipantau.</text>
-      <path d="M20 119H446" stroke="#31566e"/>
-      <circle cx="26" cy="137" r="3" fill="#83e3cc"/>
-      <text x="38" y="142" fill="#91ddda" font-size="14">Keputusan didukung data yang relevan</text>
-    </g>
-    <g transform="translate(510 200)">
-      <rect width="466" height="158" rx="16" fill="#102d43" stroke="#31566e"/>
-      <rect x="20" y="21" width="31" height="26" rx="8" fill="#1a4b62"/>
-      <text x="35.5" y="39" text-anchor="middle" fill="#83e3cc" font-size="12" font-weight="700">04</text>
-      <text x="62" y="41" fill="#f3f9fd" font-size="20" font-weight="700">Data Processing Tools</text>
-      <text x="20" y="77" fill="#bbd3e0" font-size="15">Validasi, rekonsiliasi, konversi,</text>
-      <text x="20" y="100" fill="#bbd3e0" font-size="15">dan pemindahan data antar sistem.</text>
-      <path d="M20 119H446" stroke="#31566e"/>
-      <circle cx="26" cy="137" r="3" fill="#83e3cc"/>
-      <text x="38" y="142" fill="#91ddda" font-size="14">Data lebih konsisten dan siap digunakan</text>
-    </g>
-    <g transform="translate(24 376)">
-      <rect width="952" height="158" rx="16" fill="url(#featured)" stroke="#42869a"/>
-      <rect x="20" y="21" width="31" height="26" rx="8" fill="#23566a"/>
-      <text x="35.5" y="39" text-anchor="middle" fill="#83e3cc" font-size="12" font-weight="700">05</text>
-      <text x="62" y="41" fill="#f3f9fd" font-size="20" font-weight="700">Workflow Automation</text>
-      <text x="20" y="78" fill="#c7dce6" font-size="15">Tugas terjadwal, sinkronisasi, dan pelaporan</text>
-      <text x="20" y="101" fill="#c7dce6" font-size="15">berjalan dengan aturan validasi yang jelas.</text>
-      <path d="M492 30V126" stroke="#42718a"/>
-      <text x="521" y="60" fill="#83e3cc" font-size="12" font-weight="700" letter-spacing="1.2">HASIL UNTUK TIM</text>
-      <text x="521" y="91" fill="#f3f9fd" font-size="18" font-weight="600">Lebih sedikit langkah manual.</text>
-      <text x="521" y="117" fill="#b9d4e1" font-size="15">Lebih banyak waktu untuk keputusan.</text>
-      <rect x="20" y="134" width="912" height="2" rx="1" fill="url(#accent)" opacity=".55"/>
-    </g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="508" viewBox="0 0 1000 508" role="img" aria-labelledby="title desc">
+<title id="title">What I Build — solusi sistem bisnis</title>
+<desc id="desc">Lima solusi: aplikasi bisnis untuk alur operasional yang jelas; integrasi Accurate Online untuk mengurangi input berulang; laporan dan dashboard untuk memantau kinerja; alat pengolahan data untuk data yang konsisten; dan otomatisasi workflow untuk mengurangi pekerjaan manual.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#06121f"/><stop offset="1" stop-color="#0c2539"/></linearGradient>
+<linearGradient id="ac" x2="1"><stop stop-color="#45b9f7"/><stop offset="1" stop-color="#7ce4cf"/></linearGradient>
+<linearGradient id="cs" x2="0" y2="1"><stop stop-color="#2f5d79"/><stop offset="1" stop-color="#1b3a51"/></linearGradient>
+<linearGradient id="csf" x2="0" y2="1"><stop stop-color="#4f9bb0"/><stop offset="1" stop-color="#28607a"/></linearGradient>
+<linearGradient id="cf" x2="1"><stop stop-color="#12364d"/><stop offset="1" stop-color="#0f2c42"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#2f8fc0" stop-opacity=".3"/><stop offset="1" stop-color="#2f8fc0" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1" fill="#a6d8ec" fill-opacity=".13"/></pattern>
+<linearGradient id="fade" x1="1" y1="0" x2="0" y2="1"><stop stop-color="#fff"/><stop offset=".75" stop-color="#fff" stop-opacity=".1"/></linearGradient>
+<mask id="fm"><rect width="1000" height="508" fill="url(#fade)"/></mask>
+<clipPath id="clip"><rect width="1000" height="508" rx="20"/></clipPath>
+</defs>
+<style>.in{animation:in .8s cubic-bezier(.2,.7,.2,1) both}
+@keyframes in{from{opacity:0;transform:translateY(10px)}}
+.ping{transform-box:fill-box;transform-origin:center;animation:ping 2.6s ease-out infinite}
+@keyframes ping{0%{transform:scale(1);opacity:.55}70%,to{transform:scale(2.9);opacity:0}}
+.grow{transform-box:fill-box;transform-origin:left center;animation:grow 1.1s cubic-bezier(.2,.7,.2,1) .3s both}
+@keyframes grow{from{transform:scaleX(0)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+.sweep{animation:sweep 5s ease-in-out infinite}
+@keyframes sweep{0%{transform:translateX(0);opacity:0}15%,85%{opacity:.85}to{transform:translateX(792px);opacity:0}}</style>
+<g clip-path="url(#clip)">
+<rect width="1000" height="508" fill="url(#bg)"/>
+<rect width="1000" height="508" fill="url(#dots)" mask="url(#fm)"/>
+<circle cx="1000" cy="0" r="378" fill="url(#glow)"/>
+</g>
+<rect x=".5" y=".5" width="999" height="507" rx="19.5" fill="none" stroke="#1e3d56"/>
+<g font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif">
+<g transform="translate(24 24)"><g class="in" style="animation-delay:0s">
+<rect width="466" height="150" rx="14" fill="#0e273b" stroke="url(#cs)"/>
+<rect x="20" y="20" width="44" height="44" rx="12" fill="#143a52" stroke="#25566f"/><g transform="translate(31 31) scale(0.9167)" fill="none" stroke="#7ce4cf" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 8h20M6 4v4M10 4v4"/></g>
+<text x="78" y="40" font-size="19" font-weight="700" fill="#f2f8fc">Business Applications</text><text x="446" y="38" font-size="12" fill="#86a3b8" text-anchor="end" font-family="ui-monospace, 'Cascadia Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace">01</text>
+<text x="78" y="64" font-size="14.5" fill="#b7cbda">Aplikasi web untuk aktivitas operasional</text><text x="78" y="85" font-size="14.5" fill="#b7cbda">dalam satu alur kerja yang terstruktur.</text>
+<path d="M20 105.5H446" stroke="#234861"/>
+<circle cx="29" cy="127" r="9" fill="#7ce4cf" fill-opacity=".14"/><g transform="translate(24 122) scale(0.4167)" fill="none" stroke="#7ce4cf" stroke-width="4.32" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></g><text x="47" y="131.5" font-size="13.5" fill="#a5e6dc">Pekerjaan harian lebih jelas</text>
+</g></g>
+<g transform="translate(510 24)"><g class="in" style="animation-delay:0.09s">
+<rect width="466" height="150" rx="14" fill="#0e273b" stroke="url(#cs)"/>
+<rect x="20" y="20" width="44" height="44" rx="12" fill="#143a52" stroke="#25566f"/><g transform="translate(31 31) scale(0.9167)" fill="none" stroke="#7ce4cf" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3 4 7l4 4M4 7h16M16 21l4-4-4-4M20 17H4"/></g>
+<text x="78" y="40" font-size="19" font-weight="700" fill="#f2f8fc">Accurate Online Integrations</text><text x="446" y="38" font-size="12" fill="#86a3b8" text-anchor="end" font-family="ui-monospace, 'Cascadia Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace">02</text>
+<text x="78" y="64" font-size="14.5" fill="#b7cbda">Hubungkan Accurate Online dengan</text><text x="78" y="85" font-size="14.5" fill="#b7cbda">aplikasi, Excel, dan platform lain.</text>
+<path d="M20 105.5H446" stroke="#234861"/>
+<circle cx="29" cy="127" r="9" fill="#7ce4cf" fill-opacity=".14"/><g transform="translate(24 122) scale(0.4167)" fill="none" stroke="#7ce4cf" stroke-width="4.32" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></g><text x="47" y="131.5" font-size="13.5" fill="#a5e6dc">Data terhubung, input berulang berkurang</text>
+</g></g>
+<g transform="translate(24 190)"><g class="in" style="animation-delay:0.18s">
+<rect width="466" height="150" rx="14" fill="#0e273b" stroke="url(#cs)"/>
+<rect x="20" y="20" width="44" height="44" rx="12" fill="#143a52" stroke="#25566f"/><g transform="translate(31 31) scale(0.9167)" fill="none" stroke="#7ce4cf" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18M18 17V9M13 17V5M8 17v-3"/></g>
+<text x="78" y="40" font-size="19" font-weight="700" fill="#f2f8fc">Reporting &amp; Dashboards</text><text x="446" y="38" font-size="12" fill="#86a3b8" text-anchor="end" font-family="ui-monospace, 'Cascadia Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace">03</text>
+<text x="78" y="64" font-size="14.5" fill="#b7cbda">Laporan keuangan dan operasional</text><text x="78" y="85" font-size="14.5" fill="#b7cbda">dalam tampilan yang mudah dipantau.</text>
+<path d="M20 105.5H446" stroke="#234861"/>
+<circle cx="29" cy="127" r="9" fill="#7ce4cf" fill-opacity=".14"/><g transform="translate(24 122) scale(0.4167)" fill="none" stroke="#7ce4cf" stroke-width="4.32" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></g><text x="47" y="131.5" font-size="13.5" fill="#a5e6dc">Keputusan didukung data yang relevan</text>
+</g></g>
+<g transform="translate(510 190)"><g class="in" style="animation-delay:0.27s">
+<rect width="466" height="150" rx="14" fill="#0e273b" stroke="url(#cs)"/>
+<rect x="20" y="20" width="44" height="44" rx="12" fill="#143a52" stroke="#25566f"/><g transform="translate(31 31) scale(0.9167)" fill="none" stroke="#7ce4cf" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5M3 12a9 3 0 0 0 18 0"/></g>
+<text x="78" y="40" font-size="19" font-weight="700" fill="#f2f8fc">Data Processing Tools</text><text x="446" y="38" font-size="12" fill="#86a3b8" text-anchor="end" font-family="ui-monospace, 'Cascadia Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace">04</text>
+<text x="78" y="64" font-size="14.5" fill="#b7cbda">Validasi, rekonsiliasi, konversi,</text><text x="78" y="85" font-size="14.5" fill="#b7cbda">dan pemindahan data antar sistem.</text>
+<path d="M20 105.5H446" stroke="#234861"/>
+<circle cx="29" cy="127" r="9" fill="#7ce4cf" fill-opacity=".14"/><g transform="translate(24 122) scale(0.4167)" fill="none" stroke="#7ce4cf" stroke-width="4.32" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></g><text x="47" y="131.5" font-size="13.5" fill="#a5e6dc">Data lebih konsisten dan siap digunakan</text>
+</g></g>
+<g transform="translate(24 356)"><g class="in" style="animation-delay:0.36s">
+<rect width="952" height="128" rx="14" fill="url(#cf)" stroke="url(#csf)"/>
+<rect x="20" y="20" width="44" height="44" rx="12" fill="#143a52" stroke="#25566f"/><g transform="translate(31 31) scale(0.9167)" fill="none" stroke="#7ce4cf" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></g>
+<text x="78" y="40" font-size="19" font-weight="700" fill="#f2f8fc">Workflow Automation</text><text x="446" y="38" font-size="12" fill="#86a3b8" text-anchor="end" font-family="ui-monospace, 'Cascadia Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace">05</text>
+<text x="78" y="64" font-size="14.5" fill="#c7dce6">Tugas terjadwal, sinkronisasi, dan pelaporan</text><text x="78" y="85" font-size="14.5" fill="#c7dce6">berjalan dengan aturan validasi yang jelas.</text>
+<path d="M476.5 22V90" stroke="#3a7189"/>
+<text x="506" y="40" font-size="11.5" font-weight="700" fill="#7ce4cf" font-family="ui-monospace, 'Cascadia Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" letter-spacing="1.4">HASIL UNTUK TIM</text>
+<text x="506" y="66" font-size="18" font-weight="600" fill="#f2f8fc">Lebih sedikit langkah manual.</text>
+<text x="506" y="89" font-size="14.5" fill="#b7cbda">Lebih banyak waktu untuk keputusan.</text>
+<rect x="20" y="109" width="912" height="2" rx="1" fill="url(#ac)" opacity=".5"/>
+<rect x="20" y="109" width="120" height="2" rx="1" fill="#eafcff" class="sweep" opacity="0"/>
+</g></g>
+</g>
 </svg>

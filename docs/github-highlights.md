@@ -25,3 +25,12 @@ If publishing assets is rejected, check Actions write permissions and whether th
 Requires Node.js 22 or later. Run `node scripts/update-highlights.mjs` to fetch public metrics and `node --test scripts/update-highlights.test.mjs` to verify aggregation and timestamp rendering. Run `node scripts/render-snapshot.mjs` to rebuild the checked-in SVG examples from the last JSON snapshot without making API calls. Optional `GITHUB_TOKEN` increases API limits; never commit it.
 
 README uses native headings, wrapping text, and `picture` sources for mobile images. GitHub sanitizes custom page styles, so service cards use a single column rather than a CSS grid. The snake is a full-year overview; the contribution calendar link provides readable daily detail on small screens.
+
+## Visual system
+
+All cards share one theme in `scripts/theme.mjs` (colors, fonts, icons, card frame, motion). Change a color or icon there and every card follows.
+
+- `node scripts/build-assets.mjs` rebuilds the static cards in `assets/`: banner, What I Build, workflow, tech stack, and contact, each in a desktop and a mobile size. Edit the text in that script, run it, and commit the regenerated SVG files.
+- The GitHub Highlights card uses the same theme through `render()` in `scripts/update-highlights.mjs`, so the workflow publishes it in the matching style.
+- Motion is CSS only and stops under `prefers-reduced-motion`. Every element's resting state is its final state, so cards stay readable where animation is unavailable.
+- The snake colors are set by `color_snake` and `color_dots` in the workflow.

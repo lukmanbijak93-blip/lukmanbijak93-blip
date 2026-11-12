@@ -1,13 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="440" height="338" viewBox="0 0 440 338" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="350" viewBox="0 0 440 350" role="img" aria-labelledby="title desc">
 <title id="title">Dari proses bisnis menjadi solusi digital</title>
-<desc id="desc">Pahami proses, hubungkan sistem, otomatisasi pekerjaan, evaluasi hasil.</desc>
-<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#071527"/><stop offset="1" stop-color="#10334a"/></linearGradient><linearGradient id="flow" x2="0" y2="1"><stop stop-color="#48c9f5"/><stop offset="1" stop-color="#83e3cc"/></linearGradient></defs>
-<style>.flow{stroke-dasharray:240;animation:draw 2s ease-out both}@keyframes draw{from{stroke-dashoffset:240}to{stroke-dashoffset:0}}@media(prefers-reduced-motion:reduce){.flow{animation:none}}</style>
-<rect width="440" height="338" rx="16" fill="url(#bg)"/>
-<path d="M48 48V288" stroke="url(#flow)" stroke-width="2" class="flow"/>
-<g font-family="Segoe UI, Arial, sans-serif">
-<g fill="#15344f" stroke="#48b7ff"><circle cx="48" cy="48" r="20"/><circle cx="48" cy="128" r="20"/><circle cx="48" cy="208" r="20"/><circle cx="48" cy="288" r="20"/></g>
-<g fill="#84ccff" text-anchor="middle" font-size="14" font-weight="700"><text x="48" y="53">01</text><text x="48" y="133">02</text><text x="48" y="213">03</text><text x="48" y="293">04</text></g>
-<g fill="#f0f6ff" font-size="20" font-weight="600"><text x="90" y="45">Pahami proses</text><text x="90" y="125">Hubungkan sistem</text><text x="90" y="205">Otomatisasi</text><text x="90" y="285">Evaluasi hasil</text></g>
-<g fill="#b9cee0" font-size="15"><text x="90" y="69">Kebutuhan &amp; alur kerja</text><text x="90" y="149">Data &amp; integrasi API</text><text x="90" y="229">Validasi &amp; sinkronisasi</text><text x="90" y="309">Laporan &amp; perbaikan</text></g>
-</g></svg>
+<desc id="desc">Empat tahap: pahami proses, hubungkan sistem, otomatisasi pekerjaan, evaluasi hasil.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#06121f"/><stop offset="1" stop-color="#0c2539"/></linearGradient>
+<linearGradient id="ac" x2="1"><stop stop-color="#45b9f7"/><stop offset="1" stop-color="#7ce4cf"/></linearGradient>
+<linearGradient id="cs" x2="0" y2="1"><stop stop-color="#2f5d79"/><stop offset="1" stop-color="#1b3a51"/></linearGradient>
+<linearGradient id="csf" x2="0" y2="1"><stop stop-color="#4f9bb0"/><stop offset="1" stop-color="#28607a"/></linearGradient>
+<linearGradient id="cf" x2="1"><stop stop-color="#12364d"/><stop offset="1" stop-color="#0f2c42"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#2f8fc0" stop-opacity=".3"/><stop offset="1" stop-color="#2f8fc0" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1" fill="#a6d8ec" fill-opacity=".13"/></pattern>
+<linearGradient id="fade" x1="1" y1="0" x2="0" y2="1"><stop stop-color="#fff"/><stop offset=".75" stop-color="#fff" stop-opacity=".1"/></linearGradient>
+<mask id="fm"><rect width="440" height="350" fill="url(#fade)"/></mask>
+<clipPath id="clip"><rect width="440" height="350" rx="18"/></clipPath>
+</defs>
+<style>.in{animation:in .8s cubic-bezier(.2,.7,.2,1) both}
+@keyframes in{from{opacity:0;transform:translateY(10px)}}
+.ping{transform-box:fill-box;transform-origin:center;animation:ping 2.6s ease-out infinite}
+@keyframes ping{0%{transform:scale(1);opacity:.55}70%,to{transform:scale(2.9);opacity:0}}
+.grow{transform-box:fill-box;transform-origin:left center;animation:grow 1.1s cubic-bezier(.2,.7,.2,1) .3s both}
+@keyframes grow{from{transform:scaleX(0)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+.draw{stroke-dasharray:246;animation:draw 1.8s ease-out both}
+@keyframes draw{from{stroke-dashoffset:246}}
+.run{animation:run 6s linear infinite}
+@keyframes run{0%{transform:translateY(0);opacity:0}4%{opacity:1}75%{transform:translateY(246px);opacity:1}80%,to{transform:translateY(246px);opacity:0}}
+.halo{transform-box:fill-box;transform-origin:center;opacity:0;animation:halo 6s ease-out infinite}
+@keyframes halo{0%{transform:scale(1);opacity:.75}22%,to{transform:scale(1.75);opacity:0}}</style>
+<g clip-path="url(#clip)">
+<rect width="440" height="350" fill="url(#bg)"/>
+<rect width="440" height="350" fill="url(#dots)" mask="url(#fm)"/>
+<circle cx="440" cy="0" r="200" fill="url(#glow)"/>
+</g>
+<rect x=".5" y=".5" width="439" height="349" rx="17.5" fill="none" stroke="#1e3d56"/>
+<g font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif">
+<rect x="49" y="52" width="2" height="246" fill="#234861"/>
+<path d="M50 52V298" stroke="#45b9f7" stroke-width="2" stroke-opacity=".75" class="draw"/>
+<g class="run" opacity="0"><circle cx="50" cy="52" r="9" fill="#7ce4cf" fill-opacity=".22"/><circle cx="50" cy="52" r="3.5" fill="#dffaf5"/></g>
+<circle cx="50" cy="52" r="22" fill="none" stroke="#7ce4cf" stroke-width="1.5" class="halo" style="animation-delay:0s"/>
+<circle cx="50" cy="52" r="22" fill="#0e273b" stroke="url(#ac)" stroke-width="1.5"/><g transform="translate(40 42) scale(0.8333)" fill="none" stroke="#7ce4cf" stroke-width="2.04" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></g>
+<text x="92" y="38" font-size="11" font-weight="700" fill="#7ce4cf" font-family="ui-monospace, 'Cascadia Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" letter-spacing="1">01</text>
+<text x="92" y="60" font-size="19" font-weight="600" fill="#f2f8fc">Pahami proses</text>
+<text x="92" y="81" font-size="14.5" fill="#b7cbda">Kebutuhan &amp; alur kerja</text>
+<circle cx="50" cy="134" r="22" fill="none" stroke="#7ce4cf" stroke-width="1.5" class="halo" style="animation-delay:1.5s"/>
+<circle cx="50" cy="134" r="22" fill="#0e273b" stroke="url(#ac)" stroke-width="1.5"/><g transform="translate(40 124) scale(0.8333)" fill="none" stroke="#7ce4cf" stroke-width="2.04" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3 4 7l4 4M4 7h16M16 21l4-4-4-4M20 17H4"/></g>
+<text x="92" y="120" font-size="11" font-weight="700" fill="#7ce4cf" font-family="ui-monospace, 'Cascadia Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" letter-spacing="1">02</text>
+<text x="92" y="142" font-size="19" font-weight="600" fill="#f2f8fc">Hubungkan sistem</text>
+<text x="92" y="163" font-size="14.5" fill="#b7cbda">Data &amp; integrasi API</text>
+<circle cx="50" cy="216" r="22" fill="none" stroke="#7ce4cf" stroke-width="1.5" class="halo" style="animation-delay:3s"/>
+<circle cx="50" cy="216" r="22" fill="#0e273b" stroke="url(#ac)" stroke-width="1.5"/><g transform="translate(40 206) scale(0.8333)" fill="none" stroke="#7ce4cf" stroke-width="2.04" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></g>
+<text x="92" y="202" font-size="11" font-weight="700" fill="#7ce4cf" font-family="ui-monospace, 'Cascadia Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" letter-spacing="1">03</text>
+<text x="92" y="224" font-size="19" font-weight="600" fill="#f2f8fc">Otomatisasi</text>
+<text x="92" y="245" font-size="14.5" fill="#b7cbda">Validasi &amp; sinkronisasi</text>
+<circle cx="50" cy="298" r="22" fill="none" stroke="#7ce4cf" stroke-width="1.5" class="halo" style="animation-delay:4.5s"/>
+<circle cx="50" cy="298" r="22" fill="#0e273b" stroke="url(#ac)" stroke-width="1.5"/><g transform="translate(40 288) scale(0.8333)" fill="none" stroke="#7ce4cf" stroke-width="2.04" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18M18 17V9M13 17V5M8 17v-3"/></g>
+<text x="92" y="284" font-size="11" font-weight="700" fill="#7ce4cf" font-family="ui-monospace, 'Cascadia Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" letter-spacing="1">04</text>
+<text x="92" y="306" font-size="19" font-weight="600" fill="#f2f8fc">Evaluasi hasil</text>
+<text x="92" y="327" font-size="14.5" fill="#b7cbda">Laporan &amp; perbaikan</text>
+</g>
+</svg>

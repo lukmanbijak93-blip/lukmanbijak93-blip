@@ -2,15 +2,18 @@
 
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/profile-banner-mobile.svg" />
-  <img src="./assets/profile-banner.svg" width="100%" alt="Lukman Bijak Bestari - Business Systems, Data, Automation" />
+  <img src="./assets/profile-banner.svg" width="100%" alt="Lukman Bijak Bestari - Trainer Accurate Online dan Developer Sistem Bisnis. Business Systems, Data, Automation." />
 </picture>
 
-<h1>Lukman Bijak Bestari</h1>
-<p><strong>Trainer Accurate Online · Developer Sistem Bisnis</strong></p>
 <p>Saya membantu tim menyambungkan sistem, merapikan data, dan menyederhanakan pekerjaan operasional.</p>
 
-
-<p><a href="#what-i-build">Solusi</a> &nbsp;·&nbsp; <a href="#how-i-work">Proses</a> &nbsp;·&nbsp; <a href="#github-highlights">GitHub</a> &nbsp;·&nbsp; <a href="#lets-connect">Kontak</a></p>
+<p>
+  <a href="#what-i-build"><b>Solusi</b></a> &nbsp;·&nbsp;
+  <a href="#how-i-work"><b>Proses</b></a> &nbsp;·&nbsp;
+  <a href="#tech-stack"><b>Tech Stack</b></a> &nbsp;·&nbsp;
+  <a href="#github-highlights"><b>GitHub</b></a> &nbsp;·&nbsp;
+  <a href="#lets-connect"><b>Kontak</b></a>
+</p>
 
 </div>
 
@@ -36,28 +39,17 @@ Saya membangun solusi yang mengikuti **alur kerja, data, dan kebutuhan tim Anda*
   <img src="./assets/workflow.svg" width="100%" alt="Alur kerja: memahami proses bisnis, merancang integrasi, mengotomatisasi pekerjaan, lalu mengevaluasi laporan." />
 </picture>
 
-1. **Pahami proses** - petakan kebutuhan, alur kerja, dan sumber data.
-2. **Hubungkan sistem** - susun struktur data dan integrasi yang sesuai.
-3. **Otomatisasi pekerjaan** - terapkan validasi dan kurangi langkah berulang.
-4. **Evaluasi hasil** - gunakan laporan serta masukan tim untuk perbaikan.
+1. **Pahami proses** — petakan kebutuhan, alur kerja, dan sumber data.
+2. **Hubungkan sistem** — susun struktur data dan integrasi yang sesuai.
+3. **Otomatisasi pekerjaan** — terapkan validasi dan kurangi langkah berulang.
+4. **Evaluasi hasil** — gunakan laporan serta masukan tim untuk perbaikan.
 
 ## Tech Stack
 
-**Pengembangan aplikasi**
-
-PHP, Laravel, JavaScript, HTML, CSS
-
-**Data & pelaporan**
-
-MySQL, PostgreSQL, SQL, Microsoft Excel, JasperReports
-
-**Integrasi**
-
-Accurate Online API, REST API, JSON, CSV
-
-**Infrastruktur & workflow**
-
-Linux, Nginx, Git, GitHub, Vercel
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/tech-stack-mobile.svg" />
+  <img src="./assets/tech-stack.svg" width="100%" alt="Tech stack. Pengembangan aplikasi: PHP, Laravel, JavaScript, HTML, CSS. Data dan pelaporan: MySQL, PostgreSQL, SQL, Microsoft Excel, JasperReports. Integrasi: Accurate Online API, REST API, JSON, CSV. Infrastruktur dan workflow: Linux, Nginx, Git, GitHub, Vercel." />
+</picture>
 
 ## GitHub Highlights
 
@@ -79,20 +71,25 @@ Linux, Nginx, Git, GitHub, Vercel
 
 ## Let's Connect
 
-**Ingin mengintegrasikan Accurate Online atau menyederhanakan proses bisnis Anda?**
+<a href="https://wa.me/6281285525538">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/connect-mobile.svg" />
+    <img src="./assets/connect.svg" width="100%" alt="Ingin mengintegrasikan Accurate Online atau menyederhanakan proses bisnis Anda? Ceritakan alur kerja Anda dan bagian yang ingin diperbaiki. Chat via WhatsApp: 0812-8552-5538." />
+  </picture>
+</a>
 
-Ceritakan alur kerja yang sedang Anda jalankan dan bagian yang ingin diperbaiki. Kita bisa mulai dari kebutuhan integrasi, otomatisasi, pelaporan, atau pelatihan tim.
+Kita bisa mulai dari kebutuhan integrasi, otomatisasi, pelaporan, atau pelatihan tim.
 
-<p>
-<a href="https://easyfinancepro.id/">
-  <img src="https://img.shields.io/badge/VISIT_EASYFINANCEPRO.ID-1687D9?style=for-the-badge&logo=googlechrome&logoColor=white" alt="EasyFinancePro" />
+<p align="center">
+<a href="https://wa.me/6281285525538">
+  <img src="https://img.shields.io/badge/WhatsApp-0812--8552--5538-0E273B?style=for-the-badge&logo=whatsapp&logoColor=7CE4CF&labelColor=06121F" alt="WhatsApp: 081285525538" />
 </a>
 <a href="https://www.instagram.com/lukmanbi">
-  <img src="https://img.shields.io/badge/Instagram-%40lukmanbi-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram: @lukmanbi" />
+  <img src="https://img.shields.io/badge/Instagram-%40lukmanbi-0E273B?style=for-the-badge&logo=instagram&logoColor=7CE4CF&labelColor=06121F" alt="Instagram: @lukmanbi" />
 </a>
-<a href="https://wa.me/6281285525538">
-  <img src="https://img.shields.io/badge/WhatsApp-081285525538-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp: 081285525538" />
+<a href="https://easyfinancepro.id/">
+  <img src="https://img.shields.io/badge/Website-easyfinancepro.id-0E273B?style=for-the-badge&logo=googlechrome&logoColor=7CE4CF&labelColor=06121F" alt="Website: easyfinancepro.id" />
 </a>
 </p>
 
-[Diskusikan kebutuhan Anda lewat WhatsApp](https://wa.me/6281285525538) - [Instagram @lukmanbi](https://www.instagram.com/lukmanbi) - [Website EasyFinancePro](https://easyfinancepro.id/)
+<p align="center"><sub><a href="https://wa.me/6281285525538">WhatsApp</a> &nbsp;·&nbsp; <a href="https://www.instagram.com/lukmanbi">Instagram @lukmanbi</a> &nbsp;·&nbsp; <a href="https://easyfinancepro.id/">EasyFinancePro</a></sub></p>

@@ -2,6 +2,7 @@ import { mkdir, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { fetchContributions } from './contributions.mjs';
+import { c, mono, text, icon, tile, card, ping, delay, svg } from './theme.mjs';
 
 const username = process.env.PROFILE_USERNAME || 'lukmanbijak93-blip';
 if (!/^[a-z\d](?:[a-z\d-]{0,37}[a-z\d])?$/i.test(username)) throw new Error('Invalid GitHub username');
@@ -30,35 +31,69 @@ export function summarize(user, repositories) {
 
 export function render(stats, updatedAt, mobile = false) {
   const width = mobile ? 400 : 1000;
-  const height = mobile ? 686 : 396;
+  const height = mobile ? 634 : 346;
+  const edge = mobile ? 20 : 24;
   const date = new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Jakarta', day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date(updatedAt));
-  const metrics = [[stats.publicRepositories, 'Repositori publik'], [stats.followers, 'Followers'], [stats.stars, 'Stars'], [stats.forks, 'Forks']];
+  const format = value => value.toLocaleString('en-US');
+  const metrics = [[stats.publicRepositories, 'Repositori publik', 'book'], [stats.followers, 'Followers', 'users'], [stats.stars, 'Stars', 'star'], [stats.forks, 'Forks', 'fork']];
   const contributionMetrics = [[stats.totalContributions, 'Total kontribusi'], [stats.currentStreak, 'Streak saat ini'], [stats.longestStreak, 'Streak terpanjang']];
-  const contributionCards = contributionMetrics.map(([value, label], i) => {
-    const x = mobile ? 24 : 28 + i * 326;
-    const y = mobile ? 94 + i * 98 : 89;
-    return `<g transform="translate(${x} ${y})" class="card"><rect width="${mobile ? 352 : 292}" height="86" rx="14" fill="#15364d" stroke="#2b5970"/><rect x="17" y="16" width="27" height="3" rx="1.5" fill="${i === 0 ? '#7de0cb' : '#58b9e9'}"/><text x="18" y="49" font-size="30" font-weight="700" fill="#f0f8fc">${value.toLocaleString('en-US')}${i ? '<tspan dx="6" font-size="14" fill="#b9cee0">hari</tspan>' : ''}</text><text x="18" y="72" font-size="14" fill="#b9cee0">${label}</text></g>`;
-  }).join('\n');
-  const cards = metrics.map(([value, label], i) => {
-    const x = mobile ? 24 + (i % 2) * 184 : 28 + i * 244;
-    const y = mobile ? 406 + Math.floor(i / 2) * 106 : 218;
-    return `<g transform="translate(${x} ${y})" class="card"><rect width="${mobile ? 168 : 216}" height="90" rx="14" fill="#102b41" stroke="#284b62"/><text x="18" y="43" font-size="28" font-weight="700" fill="#f0f8fc">${value.toLocaleString('en-US')}</text><text x="18" y="70" font-size="14" fill="#b9cee0">${label}</text></g>`;
-  }).join('\n');
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="title desc">
-<title id="title">GitHub Highlights: ${username}</title>
-<desc id="desc">${[...contributionMetrics, ...metrics].map(([v, label]) => `${label}: ${v}`).join('. ')}. Streak dalam hari. Kalender sejak ${stats.contributionsFrom} sampai ${stats.contributionsThrough}, UTC. Sinkronisasi ${date} WIB.</desc>
-<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#071527"/><stop offset="1" stop-color="#10334a"/></linearGradient></defs>
-<style>.card{animation:enter .65s ease-out both}.card:nth-of-type(2){animation-delay:.1s}.card:nth-of-type(3){animation-delay:.2s}.card:nth-of-type(4){animation-delay:.3s}@keyframes enter{from{opacity:.65}to{opacity:1}}@media(prefers-reduced-motion:reduce){.card{animation:none}}</style>
-<rect width="${width}" height="${height}" rx="18" fill="url(#bg)"/>
-<g font-family="Segoe UI, Arial, sans-serif">
-<text x="${mobile ? 24 : 28}" y="36" font-size="16" font-weight="700" letter-spacing="1" fill="#8ce5d7">GITHUB HIGHLIGHTS</text>
-<text x="${mobile ? 24 : 28}" y="63" font-size="${mobile ? 12 : 14}" fill="#b9cee0">Diperbarui ${date} WIB</text>
-${contributionCards}
-${cards}
-<text x="${mobile ? 24 : 28}" y="${height - 51}" font-size="${mobile ? 11 : 13}" fill="#9ab3cb">Kontribusi sejak akun dibuat; streak harian (UTC).</text>
-<text x="${mobile ? 24 : 28}" y="${height - 35}" font-size="${mobile ? 11 : 13}" fill="#9ab3cb">Kalender sampai ${stats.contributionsThrough}.</text>
-<text x="${mobile ? 24 : 28}" y="${height - 19}" font-size="${mobile ? 11 : 13}" fill="#9ab3cb">Stars &amp; forks: repositori publik non-fork</text>
-</g></svg>\n`;
+  const share = stats.longestStreak ? Math.min(1, stats.currentStreak / stats.longestStreak) : 0;
+  const days = (x, y, value, size) => `<text x="${x}" y="${y}" font-size="${size}" font-weight="700" fill="${c.text}">${format(value)}<tspan dx="7" font-size="14" font-weight="400" fill="${c.mid}">hari</tspan></text>`;
+  const group = (x, y, i, content) => `<g transform="translate(${x} ${y})"><g class="in"${delay(i * 0.08)}>\n${content}\n</g></g>`;
+
+  const heroWidth = mobile ? 360 : 380;
+  const hero = group(edge, mobile ? 82 : 64, 0, `${card(heroWidth, mobile ? 126 : 150)}
+${tile(20, 20, 40, 'activity')}
+${text(72, 45, 'Total kontribusi', { size: 15 })}
+${text(20, mobile ? 104 : 114, format(stats.totalContributions), { size: mobile ? 46 : 54, weight: 700, fill: c.text, ls: -1 })}
+${mobile ? '' : text(20, 136, 'Sejak akun dibuat', { size: 12.5, fill: c.low })}`);
+
+  const streakWidth = mobile ? 172 : 270;
+  const barWidth = streakWidth - 40;
+  const streak = (i, value, label, name, caption, bar) => {
+    const x = mobile ? edge + i * 188 : 420 + i * 286;
+    const top = mobile ? 0 : -2;
+    return group(x, mobile ? 224 : 64, i + 1, `${card(streakWidth, mobile ? 162 : 150)}
+${tile(20, 20, mobile ? 36 : 40, name)}
+${mobile ? '' : text(72, 45, label, { size: 15 })}
+${days(20, top + 98, value, mobile ? 34 : 38)}
+${mobile ? text(20, 119, label, { size: 13.5 }) : ''}
+${bar === null ? '' : `<rect x="20" y="${top + (mobile ? 130 : 114)}" width="${barWidth}" height="6" rx="3" fill="${c.track}"/>${bar > 0 ? `<rect x="20" y="${top + (mobile ? 130 : 114)}" width="${Math.max(6, Math.round(barWidth * bar))}" height="6" rx="3" fill="url(#ac)" class="grow"/>` : ''}`}
+${text(20, top + (mobile ? 152 : 138), caption, { size: 12.5, fill: c.low })}`);
+  };
+  const streaks = [
+    streak(0, stats.currentStreak, 'Streak saat ini', 'flame', `${Math.round(share * 100)}% dari rekor`, share),
+    streak(1, stats.longestStreak, 'Streak terpanjang', 'award', 'Rekor pribadi', null),
+  ].join('\n');
+
+  const tiles = metrics.map(([value, label, name], i) => mobile
+    ? group(edge + (i % 2) * 188, 402 + Math.floor(i / 2) * 82, i + 3, `${card(172, 70, { radius: 12 })}
+${text(16, 32, format(value), { size: 21, weight: 700, fill: c.text })}
+${text(16, 54, label, { size: 13 })}
+${icon(name, 138, 16, 18, c.low)}`)
+    : group(edge + i * 242, 230, i + 3, `${card(226, 60, { radius: 12 })}
+${icon(name, 18, 21, 18, c.low)}
+${text(46, 35, label, { size: 14 })}
+${text(208, 37.5, format(value), { size: 21, weight: 700, fill: c.text, anchor: 'end' })}`)).join('\n');
+
+  const notes = mobile
+    ? ['Kontribusi sejak akun dibuat; streak harian (UTC).', `Kalender sampai ${stats.contributionsThrough}.`, 'Stars & forks: repositori publik non-fork.']
+    : [`Kontribusi sejak akun dibuat · streak harian (UTC) · kalender sampai ${stats.contributionsThrough} · stars & forks dari repositori publik non-fork`];
+  const header = mobile
+    ? `${text(edge, 40, 'GITHUB HIGHLIGHTS', { size: 12, weight: 700, fill: c.teal, font: mono, ls: 1.6 })}
+${text(edge, 62, `Diperbarui ${date} WIB`, { size: 12.5, fill: c.low })}${ping(width - edge - 5, 36)}`
+    : `${text(edge, 43, 'GITHUB HIGHLIGHTS', { size: 12.5, weight: 700, fill: c.teal, font: mono, ls: 1.6 })}
+${text(width - edge - 18, 43, `Diperbarui ${date} WIB`, { size: 13, fill: c.low, anchor: 'end' })}${ping(width - edge - 5, 38.5)}`;
+
+  return svg(width, height, {
+    title: `GitHub Highlights: ${username}`,
+    desc: `${[...contributionMetrics, ...metrics].map(([v, label]) => `${label}: ${v}`).join('. ')}. Streak dalam hari. Kalender sejak ${stats.contributionsFrom} sampai ${stats.contributionsThrough}, UTC. Sinkronisasi ${date} WIB.`,
+    body: `${header}
+${hero}
+${streaks}
+${tiles}
+${notes.map((note, i) => text(edge, height - 16 - (notes.length - 1 - i) * 16, note, { size: mobile ? 11.5 : 12, fill: c.low })).join('\n')}`,
+  });
 }
 
 async function main() {

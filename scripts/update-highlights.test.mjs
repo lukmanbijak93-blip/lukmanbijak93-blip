@@ -26,7 +26,7 @@ test('both sizes identify metrics and show a Jakarta timestamp', () => {
     assert.match(svg, /Total kontribusi: 12/);
     assert.match(svg, /Streak saat ini: 2/);
     assert.match(svg, /Streak terpanjang: 3/);
-    assert.match(svg, mobile ? /viewBox="0 0 400 686"/ : /viewBox="0 0 1000 396"/);
+    assert.match(svg, mobile ? /viewBox="0 0 400 634"/ : /viewBox="0 0 1000 346"/);
   }
 });
 
