@@ -35,14 +35,10 @@ Saya membangun solusi yang mengikuti **alur kerja, data, dan kebutuhan tim Anda*
 
 ## Featured Work
 
-| Kebutuhan | Solusi yang dibangun |
-|---|---|
-| **Rekonsiliasi pajak** | Faktur pajak dicocokkan otomatis dengan data penjualan, selisihnya langsung terlihat dan bisa diekspor. |
-| **Konsolidasi keuangan** | Jurnal dari beberapa perusahaan digabung menjadi satu neraca saldo dengan pemetaan akun laporan. |
-| **Gateway sistem akademik** | Tagihan dari sistem akademik tercatat otomatis di sistem akuntansi, lengkap dengan retry dan laporan pengecualian. |
-| **Anggaran & pembayaran** | Pengajuan anggaran dan pembayaran bertingkat per perusahaan dan departemen, dengan riwayat persetujuan. |
-| **Sales force automation** | Sales mengajukan outlet baru dan pelunasan dari lapangan, supervisor menyetujui, data langsung masuk ke sistem. |
-| **ERP perdagangan impor** | Deals, kuota impor per negara, dan transaksi PR/SQ/SO/PO dalam satu alur yang terhubung. |
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/featured-work-mobile.svg" />
+  <img src="./assets/featured-work.svg" width="100%" alt="Empat contoh sebelum dan sesudah. Data Terhubung: input dua kali dan angka sering beda menjadi input sekali dengan data sama di semua sistem. Laporan Otomatis: rekap manual di Excel setiap akhir bulan menjadi laporan siap kapan saja dari sumbernya. Approval Digital: pengajuan tercecer di chat dan kertas menjadi status jelas dan setiap keputusan tercatat. Pekerjaan Otomatis: import, rekap, dan notifikasi manual menjadi proses terjadwal sehingga tim fokus ke keputusan." />
+</picture>
 
 ## How I Work
 

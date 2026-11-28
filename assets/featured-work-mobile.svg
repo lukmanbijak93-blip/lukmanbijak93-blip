@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="844" viewBox="0 0 440 844" role="img" aria-labelledby="title desc">
+<title id="title">Featured Work — sebelum dan sesudah</title>
+<desc id="desc">Empat contoh sebelum dan sesudah. Data Terhubung: sebelumnya Input dua kali, angka sering beda. Sesudahnya Input sekali, data sama di semua sistem. Laporan Otomatis: sebelumnya Rekap manual di Excel setiap akhir bulan. Sesudahnya Laporan siap kapan saja dari sumbernya. Approval Digital: sebelumnya Pengajuan tercecer di chat dan kertas. Sesudahnya Status jelas, setiap keputusan tercatat. Pekerjaan Otomatis: sebelumnya Import, rekap, dan notifikasi manual. Sesudahnya Berjalan terjadwal, tim fokus ke keputusan.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#06121f"/><stop offset="1" stop-color="#0c2539"/></linearGradient>
+<linearGradient id="ac" x2="1"><stop stop-color="#45b9f7"/><stop offset="1" stop-color="#7ce4cf"/></linearGradient>
+<linearGradient id="cs" x2="0" y2="1"><stop stop-color="#2f5d79"/><stop offset="1" stop-color="#1b3a51"/></linearGradient>
+<linearGradient id="csf" x2="0" y2="1"><stop stop-color="#4f9bb0"/><stop offset="1" stop-color="#28607a"/></linearGradient>
+<linearGradient id="cf" x2="1"><stop stop-color="#12364d"/><stop offset="1" stop-color="#0f2c42"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#2f8fc0" stop-opacity=".3"/><stop offset="1" stop-color="#2f8fc0" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1" fill="#a6d8ec" fill-opacity=".13"/></pattern>
+<linearGradient id="fade" x1="1" y1="0" x2="0" y2="1"><stop stop-color="#fff"/><stop offset=".75" stop-color="#fff" stop-opacity=".1"/></linearGradient>
+<mask id="fm"><rect width="440" height="844" fill="url(#fade)"/></mask>
+<clipPath id="clip"><rect width="440" height="844" rx="20"/></clipPath>
+</defs>
+<style>.in{animation:in .8s cubic-bezier(.2,.7,.2,1) both}
+@keyframes in{from{opacity:0;transform:translateY(10px)}}
+.ping{transform-box:fill-box;transform-origin:center;animation:ping 2.6s ease-out infinite}
+@keyframes ping{0%{transform:scale(1);opacity:.55}70%,to{transform:scale(2.9);opacity:0}}
+.grow{transform-box:fill-box;transform-origin:left center;animation:grow 1.1s cubic-bezier(.2,.7,.2,1) .3s both}
+@keyframes grow{from{transform:scaleX(0)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<g clip-path="url(#clip)">
+<rect width="440" height="844" fill="url(#bg)"/>
+<rect width="440" height="844" fill="url(#dots)" mask="url(#fm)"/>
+<circle cx="440" cy="0" r="185" fill="url(#glow)"/>
+</g>
+<rect x=".5" y=".5" width="439" height="843" rx="19.5" fill="none" stroke="#1e3d56"/>
+<g font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif">
+<g transform="translate(20 20)"><g class="in" style="animation-delay:0s">
+<rect width="400" height="192" rx="14" fill="#0e273b" stroke="url(#cs)"/>
+<rect x="18" y="18" width="40" height="40" rx="11" fill="#143a52" stroke="#25566f"/><g transform="translate(28 28) scale(0.8333)" fill="none" stroke="#7ce4cf" stroke-width="2.04" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3 4 7l4 4M4 7h16M16 21l4-4-4-4M20 17H4"/></g>
+<text x="70" y="44" font-size="18" font-weight="700" fill="#f2f8fc">Data Terhubung</text>
+<path d="M18 74.5H382" stroke="#234861"/>
+<text x="18" y="98" font-size="11" font-weight="700" fill="#86a3b8" font-family="ui-monospace, 'Cascadia Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" letter-spacing="1.4">SEBELUM</text><text x="18" y="120" font-size="14.5" fill="#b7cbda">Input dua kali, angka sering beda.</text>
+<text x="18" y="148" font-size="11" font-weight="700" fill="#7ce4cf" font-family="ui-monospace, 'Cascadia Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" letter-spacing="1.4">SESUDAH</text><text x="18" y="170" font-size="14.5" fill="#a5e6dc">Input sekali, data sama di semua sistem.</text>
+</g></g>
+<g transform="translate(20 224)"><g class="in" style="animation-delay:0.09s">
+<rect width="400" height="192" rx="14" fill="#0e273b" stroke="url(#cs)"/>
+<rect x="18" y="18" width="40" height="40" rx="11" fill="#143a52" stroke="#25566f"/><g transform="translate(28 28) scale(0.8333)" fill="none" stroke="#7ce4cf" stroke-width="2.04" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18M18 17V9M13 17V5M8 17v-3"/></g>
+<text x="70" y="44" font-size="18" font-weight="700" fill="#f2f8fc">Laporan Otomatis</text>
+<path d="M18 74.5H382" stroke="#234861"/>
+<text x="18" y="98" font-size="11" font-weight="700" fill="#86a3b8" font-family="ui-monospace, 'Cascadia Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" letter-spacing="1.4">SEBELUM</text><text x="18" y="120" font-size="14.5" fill="#b7cbda">Rekap manual di Excel setiap akhir bulan.</text>
+<text x="18" y="148" font-size="11" font-weight="700" fill="#7ce4cf" font-family="ui-monospace, 'Cascadia Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" letter-spacing="1.4">SESUDAH</text><text x="18" y="170" font-size="14.5" fill="#a5e6dc">Laporan siap kapan saja dari sumbernya.</text>
+</g></g>
+<g transform="translate(20 428)"><g class="in" style="animation-delay:0.18s">
+<rect width="400" height="192" rx="14" fill="#0e273b" stroke="url(#cs)"/>
+<rect x="18" y="18" width="40" height="40" rx="11" fill="#143a52" stroke="#25566f"/><g transform="translate(28 28) scale(0.8333)" fill="none" stroke="#7ce4cf" stroke-width="2.04" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></g>
+<text x="70" y="44" font-size="18" font-weight="700" fill="#f2f8fc">Approval Digital</text>
+<path d="M18 74.5H382" stroke="#234861"/>
+<text x="18" y="98" font-size="11" font-weight="700" fill="#86a3b8" font-family="ui-monospace, 'Cascadia Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" letter-spacing="1.4">SEBELUM</text><text x="18" y="120" font-size="14.5" fill="#b7cbda">Pengajuan tercecer di chat dan kertas.</text>
+<text x="18" y="148" font-size="11" font-weight="700" fill="#7ce4cf" font-family="ui-monospace, 'Cascadia Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" letter-spacing="1.4">SESUDAH</text><text x="18" y="170" font-size="14.5" fill="#a5e6dc">Status jelas, setiap keputusan tercatat.</text>
+</g></g>
+<g transform="translate(20 632)"><g class="in" style="animation-delay:0.27s">
+<rect width="400" height="192" rx="14" fill="#0e273b" stroke="url(#cs)"/>
+<rect x="18" y="18" width="40" height="40" rx="11" fill="#143a52" stroke="#25566f"/><g transform="translate(28 28) scale(0.8333)" fill="none" stroke="#7ce4cf" stroke-width="2.04" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></g>
+<text x="70" y="44" font-size="18" font-weight="700" fill="#f2f8fc">Pekerjaan Otomatis</text>
+<path d="M18 74.5H382" stroke="#234861"/>
+<text x="18" y="98" font-size="11" font-weight="700" fill="#86a3b8" font-family="ui-monospace, 'Cascadia Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" letter-spacing="1.4">SEBELUM</text><text x="18" y="120" font-size="14.5" fill="#b7cbda">Import, rekap, dan notifikasi manual.</text>
+<text x="18" y="148" font-size="11" font-weight="700" fill="#7ce4cf" font-family="ui-monospace, 'Cascadia Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" letter-spacing="1.4">SESUDAH</text><text x="18" y="170" font-size="14.5" fill="#a5e6dc">Berjalan terjadwal, tim fokus ke keputusan.</text>
+</g></g>
+</g>
+</svg>

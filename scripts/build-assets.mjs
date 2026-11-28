@@ -205,6 +205,44 @@ ${group.items.map((item, row) => `<circle cx="22" cy="${116.5 + row * 23}" r="2.
   return svg(mobile ? 440 : 1000, mobile ? 512 : 276, { title: 'Tech Stack', desc: stackDesc, body });
 }
 
+/* ---------- Featured Work ---------- */
+
+const cases = [
+  { icon: 'link', title: 'Data Terhubung', before: ['Input dua kali,', 'angka sering beda.'], after: ['Input sekali, data', 'sama di semua sistem.'] },
+  { icon: 'chart', title: 'Laporan Otomatis', before: ['Rekap manual di Excel', 'setiap akhir bulan.'], after: ['Laporan siap kapan', 'saja dari sumbernya.'] },
+  { icon: 'check', title: 'Approval Digital', before: ['Pengajuan tercecer', 'di chat dan kertas.'], after: ['Status jelas, setiap', 'keputusan tercatat.'] },
+  { icon: 'zap', title: 'Pekerjaan Otomatis', before: ['Import, rekap, dan', 'notifikasi manual.'], after: ['Berjalan terjadwal,', 'tim fokus ke keputusan.'] },
+];
+const casesDesc = 'Empat contoh sebelum dan sesudah. ' + cases.map(s => `${s.title}: sebelumnya ${s.before.join(' ')} Sesudahnya ${s.after.join(' ')}`).join(' ');
+const label = (x, y, value, fill) => text(x, y, value, { size: 11, weight: 700, fill, font: mono, ls: 1.4 });
+const nudgeCss = `.nudge{animation:nudge 1.8s ease-in-out infinite}
+@keyframes nudge{50%{transform:translateX(5px)}}`;
+
+function featuredWork() {
+  const body = cases.map((s, i) => `<g transform="translate(${24 + (i % 2) * 486} ${24 + Math.floor(i / 2) * 184})"><g class="in"${delay(i * 0.09)}>
+${card(466, 168)}
+${tile(20, 20, 44, s.icon)}
+${text(78, 48, s.title, { size: 19, weight: 700, fill: c.text })}${text(446, 38, number(i), { size: 12, fill: c.low, anchor: 'end', font: mono })}
+<path d="M20 80.5H446" stroke="${c.line}"/>
+${label(20, 104, 'SEBELUM', c.low)}${s.before.map((line, row) => text(20, 128 + row * 21, line, { size: 14 })).join('')}
+<g class="nudge"${delay(i * 0.2)}>${icon('arrow', 214, 122, 18, c.teal, 2)}</g>
+${label(252, 104, 'SESUDAH', c.teal)}${s.after.map((line, row) => text(252, 128 + row * 21, line, { size: 14, fill: '#a5e6dc' })).join('')}
+</g></g>`).join('\n');
+  return svg(1000, 400, { title: 'Featured Work — sebelum dan sesudah', desc: casesDesc, css: nudgeCss, body });
+}
+
+function featuredWorkMobile() {
+  const body = cases.map((s, i) => `<g transform="translate(20 ${20 + i * 204})"><g class="in"${delay(i * 0.09)}>
+${card(400, 192)}
+${tile(18, 18, 40, s.icon)}
+${text(70, 44, s.title, { size: 18, weight: 700, fill: c.text })}
+<path d="M18 74.5H382" stroke="${c.line}"/>
+${label(18, 98, 'SEBELUM', c.low)}${text(18, 120, s.before.join(' '), { size: 14.5 })}
+${label(18, 148, 'SESUDAH', c.teal)}${text(18, 170, s.after.join(' '), { size: 14.5, fill: '#a5e6dc' })}
+</g></g>`).join('\n');
+  return svg(440, 844, { title: 'Featured Work — sebelum dan sesudah', desc: casesDesc, body });
+}
+
 /* ---------- Let's Connect ---------- */
 
 const connectCss = `.nudge{animation:nudge 1.8s ease-in-out infinite}
@@ -245,6 +283,7 @@ ${text(20, 174, 'Ceritakan alur kerja Anda dan bagian', { size: 15 })}${text(20,
 const files = {
   'profile-banner.svg': banner(), 'profile-banner-mobile.svg': bannerMobile(),
   'what-i-build.svg': whatIBuild(), 'what-i-build-mobile.svg': whatIBuildMobile(),
+  'featured-work.svg': featuredWork(), 'featured-work-mobile.svg': featuredWorkMobile(),
   'workflow.svg': workflow(), 'workflow-mobile.svg': workflowMobile(),
   'tech-stack.svg': techStack(), 'tech-stack-mobile.svg': techStack(true),
   'connect.svg': connect(), 'connect-mobile.svg': connectMobile(),
