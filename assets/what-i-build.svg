@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="508" viewBox="0 0 1000 508" role="img" aria-labelledby="title desc">
 <title id="title">What I Build — solusi sistem bisnis</title>
-<desc id="desc">Lima solusi: aplikasi bisnis untuk alur operasional yang jelas; integrasi Accurate Online untuk mengurangi input berulang; laporan dan dashboard untuk memantau kinerja; alat pengolahan data untuk data yang konsisten; dan otomatisasi workflow untuk mengurangi pekerjaan manual.</desc>
+<desc id="desc">Lima solusi: aplikasi bisnis untuk penjualan, pembelian, impor, produksi, dan HR; integrasi dengan sistem akuntansi, pajak, dan akademik; konsolidasi keuangan dan rekonsiliasi pajak; workflow persetujuan anggaran dan pembayaran; serta otomatisasi dan alat pengolahan data.</desc>
 <defs>
 <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#06121f"/><stop offset="1" stop-color="#0c2539"/></linearGradient>
 <linearGradient id="ac" x2="1"><stop stop-color="#45b9f7"/><stop offset="1" stop-color="#7ce4cf"/></linearGradient>
@@ -33,39 +33,39 @@
 <rect width="466" height="150" rx="14" fill="#0e273b" stroke="url(#cs)"/>
 <rect x="20" y="20" width="44" height="44" rx="12" fill="#143a52" stroke="#25566f"/><g transform="translate(31 31) scale(0.9167)" fill="none" stroke="#7ce4cf" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 8h20M6 4v4M10 4v4"/></g>
 <text x="78" y="40" font-size="19" font-weight="700" fill="#f2f8fc">Business Applications</text><text x="446" y="38" font-size="12" fill="#86a3b8" text-anchor="end" font-family="ui-monospace, 'Cascadia Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace">01</text>
-<text x="78" y="64" font-size="14.5" fill="#b7cbda">Aplikasi web untuk aktivitas operasional</text><text x="78" y="85" font-size="14.5" fill="#b7cbda">dalam satu alur kerja yang terstruktur.</text>
+<text x="78" y="64" font-size="14.5" fill="#b7cbda">Aplikasi back-office untuk penjualan,</text><text x="78" y="85" font-size="14.5" fill="#b7cbda">pembelian, impor, produksi, dan HR.</text>
 <path d="M20 105.5H446" stroke="#234861"/>
-<circle cx="29" cy="127" r="9" fill="#7ce4cf" fill-opacity=".14"/><g transform="translate(24 122) scale(0.4167)" fill="none" stroke="#7ce4cf" stroke-width="4.32" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></g><text x="47" y="131.5" font-size="13.5" fill="#a5e6dc">Pekerjaan harian lebih jelas</text>
+<circle cx="29" cy="127" r="9" fill="#7ce4cf" fill-opacity=".14"/><g transform="translate(24 122) scale(0.4167)" fill="none" stroke="#7ce4cf" stroke-width="4.32" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></g><text x="47" y="131.5" font-size="13.5" fill="#a5e6dc">Operasional berjalan dalam satu sistem</text>
 </g></g>
 <g transform="translate(510 24)"><g class="in" style="animation-delay:0.09s">
 <rect width="466" height="150" rx="14" fill="#0e273b" stroke="url(#cs)"/>
 <rect x="20" y="20" width="44" height="44" rx="12" fill="#143a52" stroke="#25566f"/><g transform="translate(31 31) scale(0.9167)" fill="none" stroke="#7ce4cf" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3 4 7l4 4M4 7h16M16 21l4-4-4-4M20 17H4"/></g>
-<text x="78" y="40" font-size="19" font-weight="700" fill="#f2f8fc">Accurate Online Integrations</text><text x="446" y="38" font-size="12" fill="#86a3b8" text-anchor="end" font-family="ui-monospace, 'Cascadia Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace">02</text>
-<text x="78" y="64" font-size="14.5" fill="#b7cbda">Hubungkan Accurate Online dengan</text><text x="78" y="85" font-size="14.5" fill="#b7cbda">aplikasi, Excel, dan platform lain.</text>
+<text x="78" y="40" font-size="19" font-weight="700" fill="#f2f8fc">System Integrations</text><text x="446" y="38" font-size="12" fill="#86a3b8" text-anchor="end" font-family="ui-monospace, 'Cascadia Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace">02</text>
+<text x="78" y="64" font-size="14.5" fill="#b7cbda">Hubungkan aplikasi dengan sistem</text><text x="78" y="85" font-size="14.5" fill="#b7cbda">akuntansi, pajak, dan akademik.</text>
 <path d="M20 105.5H446" stroke="#234861"/>
 <circle cx="29" cy="127" r="9" fill="#7ce4cf" fill-opacity=".14"/><g transform="translate(24 122) scale(0.4167)" fill="none" stroke="#7ce4cf" stroke-width="4.32" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></g><text x="47" y="131.5" font-size="13.5" fill="#a5e6dc">Data terhubung, input berulang berkurang</text>
 </g></g>
 <g transform="translate(24 190)"><g class="in" style="animation-delay:0.18s">
 <rect width="466" height="150" rx="14" fill="#0e273b" stroke="url(#cs)"/>
 <rect x="20" y="20" width="44" height="44" rx="12" fill="#143a52" stroke="#25566f"/><g transform="translate(31 31) scale(0.9167)" fill="none" stroke="#7ce4cf" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18M18 17V9M13 17V5M8 17v-3"/></g>
-<text x="78" y="40" font-size="19" font-weight="700" fill="#f2f8fc">Reporting &amp; Dashboards</text><text x="446" y="38" font-size="12" fill="#86a3b8" text-anchor="end" font-family="ui-monospace, 'Cascadia Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace">03</text>
-<text x="78" y="64" font-size="14.5" fill="#b7cbda">Laporan keuangan dan operasional</text><text x="78" y="85" font-size="14.5" fill="#b7cbda">dalam tampilan yang mudah dipantau.</text>
+<text x="78" y="40" font-size="19" font-weight="700" fill="#f2f8fc">Finance, Tax &amp; Reporting</text><text x="446" y="38" font-size="12" fill="#86a3b8" text-anchor="end" font-family="ui-monospace, 'Cascadia Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace">03</text>
+<text x="78" y="64" font-size="14.5" fill="#b7cbda">Konsolidasi multi-perusahaan, neraca</text><text x="78" y="85" font-size="14.5" fill="#b7cbda">saldo, dan rekonsiliasi pajak.</text>
 <path d="M20 105.5H446" stroke="#234861"/>
-<circle cx="29" cy="127" r="9" fill="#7ce4cf" fill-opacity=".14"/><g transform="translate(24 122) scale(0.4167)" fill="none" stroke="#7ce4cf" stroke-width="4.32" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></g><text x="47" y="131.5" font-size="13.5" fill="#a5e6dc">Keputusan didukung data yang relevan</text>
+<circle cx="29" cy="127" r="9" fill="#7ce4cf" fill-opacity=".14"/><g transform="translate(24 122) scale(0.4167)" fill="none" stroke="#7ce4cf" stroke-width="4.32" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></g><text x="47" y="131.5" font-size="13.5" fill="#a5e6dc">Angka keuangan lebih cepat diperiksa</text>
 </g></g>
 <g transform="translate(510 190)"><g class="in" style="animation-delay:0.27s">
 <rect width="466" height="150" rx="14" fill="#0e273b" stroke="url(#cs)"/>
-<rect x="20" y="20" width="44" height="44" rx="12" fill="#143a52" stroke="#25566f"/><g transform="translate(31 31) scale(0.9167)" fill="none" stroke="#7ce4cf" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5M3 12a9 3 0 0 0 18 0"/></g>
-<text x="78" y="40" font-size="19" font-weight="700" fill="#f2f8fc">Data Processing Tools</text><text x="446" y="38" font-size="12" fill="#86a3b8" text-anchor="end" font-family="ui-monospace, 'Cascadia Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace">04</text>
-<text x="78" y="64" font-size="14.5" fill="#b7cbda">Validasi, rekonsiliasi, konversi,</text><text x="78" y="85" font-size="14.5" fill="#b7cbda">dan pemindahan data antar sistem.</text>
+<rect x="20" y="20" width="44" height="44" rx="12" fill="#143a52" stroke="#25566f"/><g transform="translate(31 31) scale(0.9167)" fill="none" stroke="#7ce4cf" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></g>
+<text x="78" y="40" font-size="19" font-weight="700" fill="#f2f8fc">Approval Workflows</text><text x="446" y="38" font-size="12" fill="#86a3b8" text-anchor="end" font-family="ui-monospace, 'Cascadia Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace">04</text>
+<text x="78" y="64" font-size="14.5" fill="#b7cbda">Persetujuan anggaran dan pembayaran</text><text x="78" y="85" font-size="14.5" fill="#b7cbda">bertingkat dengan riwayat lengkap.</text>
 <path d="M20 105.5H446" stroke="#234861"/>
-<circle cx="29" cy="127" r="9" fill="#7ce4cf" fill-opacity=".14"/><g transform="translate(24 122) scale(0.4167)" fill="none" stroke="#7ce4cf" stroke-width="4.32" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></g><text x="47" y="131.5" font-size="13.5" fill="#a5e6dc">Data lebih konsisten dan siap digunakan</text>
+<circle cx="29" cy="127" r="9" fill="#7ce4cf" fill-opacity=".14"/><g transform="translate(24 122) scale(0.4167)" fill="none" stroke="#7ce4cf" stroke-width="4.32" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></g><text x="47" y="131.5" font-size="13.5" fill="#a5e6dc">Setiap keputusan tercatat dan tertelusur</text>
 </g></g>
 <g transform="translate(24 356)"><g class="in" style="animation-delay:0.36s">
 <rect width="952" height="128" rx="14" fill="url(#cf)" stroke="url(#csf)"/>
 <rect x="20" y="20" width="44" height="44" rx="12" fill="#143a52" stroke="#25566f"/><g transform="translate(31 31) scale(0.9167)" fill="none" stroke="#7ce4cf" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></g>
-<text x="78" y="40" font-size="19" font-weight="700" fill="#f2f8fc">Workflow Automation</text><text x="446" y="38" font-size="12" fill="#86a3b8" text-anchor="end" font-family="ui-monospace, 'Cascadia Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace">05</text>
-<text x="78" y="64" font-size="14.5" fill="#c7dce6">Tugas terjadwal, sinkronisasi, dan pelaporan</text><text x="78" y="85" font-size="14.5" fill="#c7dce6">berjalan dengan aturan validasi yang jelas.</text>
+<text x="78" y="40" font-size="19" font-weight="700" fill="#f2f8fc">Automation &amp; Data Tools</text><text x="446" y="38" font-size="12" fill="#86a3b8" text-anchor="end" font-family="ui-monospace, 'Cascadia Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace">05</text>
+<text x="78" y="64" font-size="14.5" fill="#c7dce6">Import Excel massal, aplikasi sales lapangan,</text><text x="78" y="85" font-size="14.5" fill="#c7dce6">notifikasi WhatsApp, dan tugas terjadwal.</text>
 <path d="M476.5 22V90" stroke="#3a7189"/>
 <text x="506" y="40" font-size="11.5" font-weight="700" fill="#7ce4cf" font-family="ui-monospace, 'Cascadia Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" letter-spacing="1.4">HASIL UNTUK TIM</text>
 <text x="506" y="66" font-size="18" font-weight="600" fill="#f2f8fc">Lebih sedikit langkah manual.</text>

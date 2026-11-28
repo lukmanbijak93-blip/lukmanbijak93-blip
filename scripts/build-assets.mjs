@@ -17,7 +17,7 @@ function chips(x, y, labels, { size = 13, pad = 26, gap = 8, height = 28 } = {})
 
 /* ---------- Banner ---------- */
 
-const focus = ['Integrasi API', 'Otomatisasi', 'Pelaporan', 'Pelatihan'];
+const focus = ['Aplikasi', 'Integrasi', 'Otomatisasi', 'Pelaporan'];
 const tagline = 'BUSINESS SYSTEMS · DATA · AUTOMATION';
 
 function banner() {
@@ -40,7 +40,7 @@ ${wires.map((d, i) => `<path d="${d}" fill="none" stroke="#2c5d7a" stroke-width=
 <rect x="937" y="132" width="96" height="96" rx="26" fill="none" stroke="${c.teal}" stroke-width="1.5" class="hub"/>
 <rect x="937" y="132" width="96" height="96" rx="26" fill="url(#cf)" stroke="url(#ac)" stroke-width="1.5"/>
 ${icon('link', 967, 162, 36, c.text, 1.8)}
-${text(985, 254, 'ACCURATE ONLINE', { size: 10.5, weight: 700, fill: c.teal, anchor: 'middle', font: mono, ls: 1 })}
+${text(985, 254, 'INTEGRASI', { size: 10.5, weight: 700, fill: c.teal, anchor: 'middle', font: mono, ls: 1 })}
 ${satellites.map(s => `<rect x="${s.x - 30}" y="${s.y - 30}" width="60" height="60" rx="17" fill="${c.card}" stroke="url(#cs)"/>${icon(s.icon, s.x - 12, s.y - 12, 24)}${text(s.x, s.y + 49, s.label, { size: 10.5, fill: c.low, anchor: 'middle', font: mono, ls: 1 })}`).join('\n')}
 <g class="in">
 <rect x="56" y="44" width="346" height="30" rx="15" fill="${c.card}" stroke="${c.line}"/>
@@ -48,7 +48,7 @@ ${ping(73, 59)}${text(88, 63.5, tagline, { size: 11.5, weight: 700, fill: '#b6e9
 </g>
 <g class="in"${delay(0.12)}>${text(54, 150, 'Lukman Bijak Bestari', { size: 56, weight: 700, fill: c.text, ls: -0.6 })}</g>
 <g class="in"${delay(0.24)}>
-${text(56, 193, 'Trainer Accurate Online & Developer Sistem Bisnis', { size: 21 })}
+${text(56, 193, 'Developer Sistem Bisnis', { size: 21 })}
 <rect x="56" y="218" width="72" height="3" rx="1.5" fill="url(#ac)" class="grow"/>
 </g>
 <g class="in"${delay(0.36)}>
@@ -57,7 +57,7 @@ ${chips(56, 284, focus)}
 </g>`;
   return svg(1200, 360, {
     title: 'Lukman Bijak Bestari',
-    desc: 'Trainer Accurate Online dan developer sistem bisnis. Proses lebih jelas, data lebih terhubung. Fokus: integrasi API, otomatisasi, pelaporan, dan pelatihan.',
+    desc: 'Developer sistem bisnis. Proses lebih jelas, data lebih terhubung. Fokus: aplikasi, integrasi, otomatisasi, dan pelaporan.',
     css, body, radius: 24, glow: [985, 180, 330],
   });
 }
@@ -71,22 +71,22 @@ ${ping(40, 38, 3)}${text(53, 42, tagline, { size: 10.5, weight: 700, fill: '#b6e
 <g class="in"${delay(0.12)}>${text(23, 110, 'Lukman Bijak', { size: 42, weight: 700, fill: c.text, ls: -0.4 })}${text(23, 156, 'Bestari', { size: 42, weight: 700, fill: c.text, ls: -0.4 })}</g>
 <g class="in"${delay(0.24)}>
 <rect x="24" y="176" width="64" height="3" rx="1.5" fill="url(#ac)" class="grow"/>
-${text(24, 212, 'Trainer Accurate Online', { size: 17, fill: '#c6dce8' })}${text(24, 236, 'Developer Sistem Bisnis', { size: 17, fill: '#c6dce8' })}
+${text(24, 212, 'Developer Sistem Bisnis', { size: 17, fill: '#c6dce8' })}${text(24, 236, 'Aplikasi, data, dan otomatisasi', { size: 17, fill: '#c6dce8' })}
 </g>
 <g class="in"${delay(0.36)}>${chips(24, 258, focus, { size: 12, pad: 18, gap: 6, height: 26 })}</g>`;
-  return svg(440, 308, { title: 'Lukman Bijak Bestari', desc: 'Trainer Accurate Online dan developer sistem bisnis.', body, glow: [404, 34, 190] });
+  return svg(440, 308, { title: 'Lukman Bijak Bestari', desc: 'Developer sistem bisnis: aplikasi, data, dan otomatisasi.', body, glow: [404, 34, 190] });
 }
 
 /* ---------- What I Build ---------- */
 
 const services = [
-  { icon: 'app', title: 'Business Applications', lines: ['Aplikasi web untuk aktivitas operasional', 'dalam satu alur kerja yang terstruktur.'], mobile: ['Aplikasi web untuk aktivitas operasional', 'dalam alur kerja yang terstruktur.'], result: 'Pekerjaan harian lebih jelas' },
-  { icon: 'link', title: 'Accurate Online Integrations', lines: ['Hubungkan Accurate Online dengan', 'aplikasi, Excel, dan platform lain.'], result: 'Data terhubung, input berulang berkurang', mobileResult: 'Input berulang berkurang' },
-  { icon: 'chart', title: 'Reporting & Dashboards', lines: ['Laporan keuangan dan operasional', 'dalam tampilan yang mudah dipantau.'], mobile: ['Laporan keuangan dan operasional', 'yang mudah dipantau.'], result: 'Keputusan didukung data yang relevan', mobileResult: 'Keputusan didukung data relevan' },
-  { icon: 'database', title: 'Data Processing Tools', lines: ['Validasi, rekonsiliasi, konversi,', 'dan pemindahan data antar sistem.'], result: 'Data lebih konsisten dan siap digunakan', mobileResult: 'Data konsisten dan siap digunakan' },
-  { icon: 'zap', title: 'Workflow Automation', lines: ['Tugas terjadwal, sinkronisasi, dan pelaporan', 'berjalan dengan aturan validasi yang jelas.'], mobile: ['Tugas terjadwal, sinkronisasi,', 'dan pelaporan dengan validasi.'], result: 'Lebih sedikit langkah manual' },
+  { icon: 'app', title: 'Business Applications', lines: ['Aplikasi back-office untuk penjualan,', 'pembelian, impor, produksi, dan HR.'], result: 'Operasional berjalan dalam satu sistem', mobileResult: 'Operasional dalam satu sistem' },
+  { icon: 'link', title: 'System Integrations', lines: ['Hubungkan aplikasi dengan sistem', 'akuntansi, pajak, dan akademik.'], result: 'Data terhubung, input berulang berkurang', mobileResult: 'Input berulang berkurang' },
+  { icon: 'chart', title: 'Finance, Tax & Reporting', lines: ['Konsolidasi multi-perusahaan, neraca', 'saldo, dan rekonsiliasi pajak.'], result: 'Angka keuangan lebih cepat diperiksa', mobileResult: 'Angka lebih cepat diperiksa' },
+  { icon: 'check', title: 'Approval Workflows', lines: ['Persetujuan anggaran dan pembayaran', 'bertingkat dengan riwayat lengkap.'], result: 'Setiap keputusan tercatat dan tertelusur', mobileResult: 'Keputusan tercatat & tertelusur' },
+  { icon: 'zap', title: 'Automation & Data Tools', lines: ['Import Excel massal, aplikasi sales lapangan,', 'notifikasi WhatsApp, dan tugas terjadwal.'], mobile: ['Import Excel massal, aplikasi sales,', 'notifikasi WhatsApp, tugas terjadwal.'], result: 'Lebih sedikit langkah manual' },
 ];
-const servicesDesc = 'Lima solusi: aplikasi bisnis untuk alur operasional yang jelas; integrasi Accurate Online untuk mengurangi input berulang; laporan dan dashboard untuk memantau kinerja; alat pengolahan data untuk data yang konsisten; dan otomatisasi workflow untuk mengurangi pekerjaan manual.';
+const servicesDesc = 'Lima solusi: aplikasi bisnis untuk penjualan, pembelian, impor, produksi, dan HR; integrasi dengan sistem akuntansi, pajak, dan akademik; konsolidasi keuangan dan rekonsiliasi pajak; workflow persetujuan anggaran dan pembayaran; serta otomatisasi dan alat pengolahan data.';
 const number = i => String(i + 1).padStart(2, '0');
 const result = (x, y, value) => `<circle cx="${x + 9}" cy="${y}" r="9" fill="${c.teal}" fill-opacity=".14"/>${icon('check', x + 4, y - 5, 10, c.teal, 1.8)}${text(x + 27, y + 4.5, value, { size: 13.5, fill: '#a5e6dc' })}`;
 
@@ -181,10 +181,10 @@ ${text(92, ys[i] + 29, s.note, { size: 14.5 })}`).join('\n')}`;
 /* ---------- Tech Stack ---------- */
 
 const stack = [
-  { icon: 'code', title: 'Pengembangan aplikasi', short: 'Aplikasi', items: ['PHP', 'Laravel', 'JavaScript', 'HTML', 'CSS'] },
-  { icon: 'database', title: 'Data & pelaporan', items: ['MySQL', 'PostgreSQL', 'SQL', 'Microsoft Excel', 'JasperReports'] },
-  { icon: 'link', title: 'Integrasi', items: ['Accurate Online API', 'REST API', 'JSON', 'CSV'] },
-  { icon: 'server', title: 'Infra & workflow', items: ['Linux', 'Nginx', 'Git', 'GitHub', 'Vercel'] },
+  { icon: 'code', title: 'Pengembangan aplikasi', short: 'Aplikasi', items: ['PHP', 'Laravel', 'Livewire', 'JavaScript', 'Tailwind CSS'] },
+  { icon: 'database', title: 'Data & pelaporan', items: ['MySQL', 'SQLite', 'SQL', 'Microsoft Excel'] },
+  { icon: 'link', title: 'Integrasi', items: ['REST API', 'Webhook', 'JSON', 'Accurate Online', 'WhatsApp API'] },
+  { icon: 'server', title: 'Infra & workflow', items: ['Linux', 'cPanel', 'Git', 'GitHub Actions', 'Playwright'] },
 ];
 const stackDesc = stack.map(group => `${group.title}: ${group.items.join(', ')}`).join('. ') + '.';
 
@@ -209,7 +209,7 @@ ${group.items.map((item, row) => `<circle cx="22" cy="${116.5 + row * 23}" r="2.
 
 const connectCss = `.nudge{animation:nudge 1.8s ease-in-out infinite}
 @keyframes nudge{50%{transform:translateX(5px)}}`;
-const connectDesc = 'Ingin mengintegrasikan Accurate Online atau menyederhanakan proses bisnis Anda? Ceritakan alur kerja Anda dan bagian yang ingin diperbaiki. Chat via WhatsApp: 0812-8552-5538.';
+const connectDesc = 'Ingin merapikan sistem, data, atau proses bisnis Anda? Ceritakan alur kerja Anda dan bagian yang ingin diperbaiki. Chat via WhatsApp: 0812-8552-5538.';
 function button(x, y, width, height) {
   const middle = x + width / 2;
   return `<rect x="${x}" y="${y}" width="${width}" height="${height}" rx="${height / 2}" fill="url(#ac)"/>
@@ -222,8 +222,8 @@ ${text(middle, y + height + 26, '0812-8552-5538', { size: 12.5, fill: c.low, anc
 function connect() {
   const body = `<g class="in">
 ${ping(30, 39.5)}${eyebrow(44, 44, 'MARI BERDISKUSI')}
-${text(24, 84, 'Ingin mengintegrasikan Accurate Online', { size: 25, weight: 700, fill: c.text, ls: -0.2 })}
-${text(24, 116, 'atau menyederhanakan proses bisnis Anda?', { size: 25, weight: 700, fill: c.text, ls: -0.2 })}
+${text(24, 84, 'Ingin merapikan sistem, data,', { size: 25, weight: 700, fill: c.text, ls: -0.2 })}
+${text(24, 116, 'atau proses bisnis Anda?', { size: 25, weight: 700, fill: c.text, ls: -0.2 })}
 ${text(24, 149, 'Ceritakan alur kerja Anda dan bagian yang ingin diperbaiki.', { size: 15 })}
 </g>
 <g class="in"${delay(0.15)}>${button(704, 58, 268, 54)}</g>`;
@@ -233,9 +233,9 @@ ${text(24, 149, 'Ceritakan alur kerja Anda dan bagian yang ingin diperbaiki.', {
 function connectMobile() {
   const body = `<g class="in">
 ${ping(27, 39.5, 3)}${eyebrow(40, 44, 'MARI BERDISKUSI', 11)}
-${text(20, 84, 'Ingin mengintegrasikan Accurate', { size: 23, weight: 700, fill: c.text, ls: -0.2 })}
-${text(20, 113, 'Online atau menyederhanakan', { size: 23, weight: 700, fill: c.text, ls: -0.2 })}
-${text(20, 142, 'proses bisnis Anda?', { size: 23, weight: 700, fill: c.text, ls: -0.2 })}
+${text(20, 84, 'Ingin merapikan sistem,', { size: 23, weight: 700, fill: c.text, ls: -0.2 })}
+${text(20, 113, 'data, atau proses', { size: 23, weight: 700, fill: c.text, ls: -0.2 })}
+${text(20, 142, 'bisnis Anda?', { size: 23, weight: 700, fill: c.text, ls: -0.2 })}
 ${text(20, 174, 'Ceritakan alur kerja Anda dan bagian', { size: 15 })}${text(20, 196, 'yang ingin diperbaiki.', { size: 15 })}
 </g>
 <g class="in"${delay(0.15)}>${button(20, 218, 400, 52)}</g>`;

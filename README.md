@@ -2,13 +2,14 @@
 
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/profile-banner-mobile.svg" />
-  <img src="./assets/profile-banner.svg" width="100%" alt="Lukman Bijak Bestari - Trainer Accurate Online dan Developer Sistem Bisnis. Business Systems, Data, Automation." />
+  <img src="./assets/profile-banner.svg" width="100%" alt="Lukman Bijak Bestari - Developer Sistem Bisnis. Business Systems, Data, Automation." />
 </picture>
 
 <p>Saya membantu tim menyambungkan sistem, merapikan data, dan menyederhanakan pekerjaan operasional.</p>
 
 <p>
   <a href="#what-i-build"><b>Solusi</b></a> &nbsp;·&nbsp;
+  <a href="#featured-work"><b>Proyek</b></a> &nbsp;·&nbsp;
   <a href="#how-i-work"><b>Proses</b></a> &nbsp;·&nbsp;
   <a href="#tech-stack"><b>Tech Stack</b></a> &nbsp;·&nbsp;
   <a href="#github-highlights"><b>GitHub</b></a> &nbsp;·&nbsp;
@@ -19,9 +20,9 @@
 
 ## About Me
 
-Saya **Lukman Bijak Bestari**, trainer dan developer yang menghubungkan proses bisnis, sistem akuntansi, data, dan pengembangan aplikasi. Fokus saya adalah mengubah kebutuhan operasional menjadi solusi digital yang praktis dan mudah digunakan tim.
+Saya **Lukman Bijak Bestari**, developer sistem bisnis. Saya membangun aplikasi operasional, menghubungkan sistem yang berbeda, dan merapikan data agar tim bekerja lebih sederhana.
 
-Keahlian utama saya mencakup **pelatihan dan implementasi Accurate Online**, **integrasi REST API**, **otomatisasi proses bisnis**, serta **pengolahan data dan pelaporan dengan Excel dan SQL**.
+Pengalaman saya mencakup aplikasi untuk **importir, distributor, manufaktur, yayasan pendidikan, dan grup usaha multi-perusahaan**: dari **ERP back-office**, **integrasi sistem akuntansi, pajak, dan akademik**, **konsolidasi keuangan**, hingga **workflow persetujuan** dan **otomatisasi**. Saya juga mendampingi dan melatih tim saat sistem mulai dipakai.
 
 ## What I Build
 
@@ -29,8 +30,19 @@ Saya membangun solusi yang mengikuti **alur kerja, data, dan kebutuhan tim Anda*
 
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/what-i-build-mobile.svg" />
-  <img src="./assets/what-i-build.svg" width="100%" alt="Lima solusi: Business Applications untuk alur operasional yang jelas; Accurate Online Integrations untuk mengurangi input berulang; Reporting dan Dashboards untuk memantau kinerja; Data Processing Tools untuk menjaga konsistensi data; dan Workflow Automation untuk mengurangi pekerjaan manual." />
+  <img src="./assets/what-i-build.svg" width="100%" alt="Lima solusi: Business Applications untuk penjualan, pembelian, impor, produksi, dan HR; System Integrations dengan sistem akuntansi, pajak, dan akademik; Finance, Tax dan Reporting untuk konsolidasi dan rekonsiliasi pajak; Approval Workflows untuk anggaran dan pembayaran; serta Automation dan Data Tools untuk mengurangi pekerjaan manual." />
 </picture>
+
+## Featured Work
+
+| Kebutuhan | Solusi yang dibangun |
+|---|---|
+| **Rekonsiliasi pajak** | Faktur pajak dicocokkan otomatis dengan data penjualan, selisihnya langsung terlihat dan bisa diekspor. |
+| **Konsolidasi keuangan** | Jurnal dari beberapa perusahaan digabung menjadi satu neraca saldo dengan pemetaan akun laporan. |
+| **Gateway sistem akademik** | Tagihan dari sistem akademik tercatat otomatis di sistem akuntansi, lengkap dengan retry dan laporan pengecualian. |
+| **Anggaran & pembayaran** | Pengajuan anggaran dan pembayaran bertingkat per perusahaan dan departemen, dengan riwayat persetujuan. |
+| **Sales force automation** | Sales mengajukan outlet baru dan pelunasan dari lapangan, supervisor menyetujui, data langsung masuk ke sistem. |
+| **ERP perdagangan impor** | Deals, kuota impor per negara, dan transaksi PR/SQ/SO/PO dalam satu alur yang terhubung. |
 
 ## How I Work
 
@@ -48,7 +60,7 @@ Saya membangun solusi yang mengikuti **alur kerja, data, dan kebutuhan tim Anda*
 
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/tech-stack-mobile.svg" />
-  <img src="./assets/tech-stack.svg" width="100%" alt="Tech stack. Pengembangan aplikasi: PHP, Laravel, JavaScript, HTML, CSS. Data dan pelaporan: MySQL, PostgreSQL, SQL, Microsoft Excel, JasperReports. Integrasi: Accurate Online API, REST API, JSON, CSV. Infrastruktur dan workflow: Linux, Nginx, Git, GitHub, Vercel." />
+  <img src="./assets/tech-stack.svg" width="100%" alt="Tech stack. Pengembangan aplikasi: PHP, Laravel, Livewire, JavaScript, Tailwind CSS. Data dan pelaporan: MySQL, SQLite, SQL, Microsoft Excel. Integrasi: REST API, Webhook, JSON, Accurate Online, WhatsApp API. Infrastruktur dan workflow: Linux, cPanel, Git, GitHub Actions, Playwright." />
 </picture>
 
 ## GitHub Highlights
@@ -74,7 +86,7 @@ Saya membangun solusi yang mengikuti **alur kerja, data, dan kebutuhan tim Anda*
 <a href="https://wa.me/6281285525538">
   <picture>
     <source media="(max-width: 600px)" srcset="./assets/connect-mobile.svg" />
-    <img src="./assets/connect.svg" width="100%" alt="Ingin mengintegrasikan Accurate Online atau menyederhanakan proses bisnis Anda? Ceritakan alur kerja Anda dan bagian yang ingin diperbaiki. Chat via WhatsApp: 0812-8552-5538." />
+    <img src="./assets/connect.svg" width="100%" alt="Ingin merapikan sistem, data, atau proses bisnis Anda? Ceritakan alur kerja Anda dan bagian yang ingin diperbaiki. Chat via WhatsApp: 0812-8552-5538." />
   </picture>
 </a>
 
